@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<ScriptFunctionDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version Major="1" Minor="0" />
+  <Name>mixed_experiments_builder</Name>
+  <Script>###################################
+######## PLATE CONSTRUCTOR ########
+###################################
+import pandas as pd
+import numpy as np
+
+#First, we write the two full Kirkman matrices
+
+#First matrix given explicitely
+M_15_35 = np.array([[1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0],
+              [0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0],
+              [0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0],
+              [0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0],
+              [0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0],
+              [1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1],
+              [0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1],
+              [0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0],
+              [0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0],
+              [0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1],
+              [1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0],
+              [0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0],
+              [0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0],
+              [0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0],
+              [0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0]])
+
+
+# Given triplets from https://www.gutenberg.org/files/26839/26839-pdf.pdf (p.107), we create teh second full matrix on the fly (not computationally expensive at all)
+triplets = [
+    [1, 8, 15], [2, 9, 16], [3, 10, 17], [4, 11, 18], [5, 12, 19], [6, 13, 20], [7, 14, 21],  # First Day
+    [1, 2, 6], [4, 5, 9], [7, 8, 12], [10, 11, 15], [13, 14, 18], [16, 17, 21], [19, 20, 3],  # Second Day
+    [7, 10, 16], [8, 11, 17], [12, 15, 21], [18, 19, 2], [20, 1, 9], [3, 5, 13], [4, 6, 14],  # Third Day
+    [13, 16, 1], [14, 17, 2], [18, 21, 6], [3, 4, 8], [5, 7, 15], [9, 11, 19], [10, 12, 20],  # Fourth Day
+    [4, 7, 13], [5, 8, 14], [9, 12, 18], [15, 16, 20], [17, 19, 6], [21, 2, 10], [1, 3, 11],  # Fifth Day
+    [1, 4, 10], [2, 5, 11], [6, 9, 15], [12, 13, 17], [14, 16, 3], [18, 20, 7], [19, 21, 8],  # Sixth Day
+    [2, 3, 7], [5, 6, 10], [8, 9, 13], [11, 12, 16], [14, 15, 19], [17, 18, 1], [20, 21, 4],  # Seventh Day
+    [10, 13, 19], [11, 14, 20], [15, 18, 3], [21, 1, 5], [2, 4, 12], [6, 8, 16], [7, 9, 17],  # Eighth Day
+    [16, 19, 4], [17, 20, 5], [21, 3, 9], [6, 7, 11], [8, 10, 15], [12, 14, 18], [13, 15, 2],  # Ninth Day
+    [19, 1, 7], [20, 2, 8], [3, 6, 12], [9, 10, 14], [11, 13, 21], [15, 17, 4], [16, 18, 5]   # Tenth Day
+]
+
+# Initialize an array of 0s, with 21 rows (one for each number) and 70 columns (one for each triplet)
+M_21_70 = np.zeros((21, 70), dtype=int)
+
+# Fill the M_21_70 with 1s according to the triplets
+for col_idx, triplet in enumerate(triplets):
+    for number in triplet:
+        M_21_70[number-1, col_idx] = 1  # -1 to adjust for 0-based indexing
+
+#read the table from .csv file (which will be in Spotfire)
+cats_names = list(cats_names['CATALYST'])
+
+if len(cats_names) &lt;= 24:
+  raise ValueError("For a small cats library (&lt;= 24) better to use single experiments!") 
+
+if len(cats_names) == 35 or (len(cats_names)%5 == 0 and len(cats_names) &lt;= 35):
+  matrix_to_use = M_15_35[:,:len(cats_names)]
+  extra_carbine_name = 'IPENT Cl'
+elif len(cats_names)%7 ==0 and len(cats_names) &lt;= 70:
+  matrix_to_use = M_21_70[:,:len(cats_names)]
+  extra_carbine_name = ["IPENT Cl", "DiMel-HeptCl", "SIPr"]
+else:
+  raise ValueError(f"Number of catalysts should be a multipe of 5 or 7 for Kirkman matrix, instead the list of given catalysts is of dimension {len(cats_names)}!")
+
+overall_result = []
+for i in range(matrix_to_use.shape[0]):
+  overall_result.append([cats_names[j] for j in range(matrix_to_use.shape[1]) if matrix_to_use[i,j] != 0])
+
+final_df = pd.DataFrame(overall_result)
+final_df.index = [f"mixture {i}" for i in range(1, final_df.shape[0]+1)]
+final_df.columns = [f"catalyst {i}" for i in range(1, final_df.shape[1]+1)]</Script>
+  <Language>Python</Language>
+  <Input>
+    <Name>cats_names</Name>
+    <Type>Table</Type>
+    <DisplayName>cats_names</DisplayName>
+    <Description>Input catalyst list that can be modified in its corresponding g_sheet</Description>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>String</AllowedDataType>
+  </Input>
+  <Output>
+    <Name>final_df</Name>
+    <Type>Table</Type>
+    <DisplayName>final_df</DisplayName>
+    <Description>Final output with mixture instructions</Description>
+  </Output>
+  <Description>This scripts takes as input the a list of catalysts that we want to test in a mix experiments and then (after performing some checks) chooses the correct Kirkman matrix to use and gives as result the mixture to be used </Description>
+  <ApprovalStamp>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2W71lR1lpkKVuqVqH38pkwAAAAACAAAAAAADZgAAwAAAABAAAABy1Yz3TScbE+SzZJR8aG9ZAAAAAASAAACgAAAAEAAAAImXx0yGDLBYZwjQx5Rk6PeIAAAAO0zBuO3K8L/iwV3FHIG8snCZc8t8W4dtK+vv6WBp4G8I3tVXwJJbbum0/ajSIkggRe37aHqaJBvpojX764YvH1Rn5OSor/Rl4Sq//Tf4ETnKHG4IhhvqZF/TXULiKJyJoeD8l+X9rx2DM1poYTRKPMKQHLyKdQ0bAWtzD5KerjTX2i6ar86KkxQAAABoAP+zdFAgrFmquIhhkdV3iw/VmQ==</ApprovalStamp>
+  <AdditionalApprovalStamps />
+</ScriptFunctionDefinition>
