@@ -100,6 +100,8 @@ You can search the package already installed and install new ones in `Tools > Py
 
  - Once configured, run the data function to perform the deconvolution on your data directly within Spotfire.
 
+The analysis of the data can be performed following the instructions of the .md file in the Spotfire folder of this repository
+
 ## References
 If you find this repository helpful, please cite the following paper:
 
