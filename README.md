@@ -93,7 +93,10 @@ You can search the package already installed and install new ones in `Tools > Py
  - Map the input parameters to your data table columns, ensuring that the catalyst pools, experimental results, and solvent/base combinations are correctly linked.
  - Map the output parameters to Spotfire visualization elements.
 
-4. Run the Data Function:
+4. Allow for the debugging tool to show printing statements:
+ - In order to be able to see the printing messages or assertion errors that are set to pop out if the input is not in the correct format, you should allow for the debugging tool to show its output. This setting can be found at `Tools > Options... > Data functions > Enable data function debugging`
+
+5. Run the Data Function:
 
  - Once configured, run the data function to perform the deconvolution on your data directly within Spotfire.
 
