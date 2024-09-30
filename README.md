@@ -15,20 +15,28 @@ This repository demonstrates how to use combinatorial designs and compressed sen
 ```
 /CompressedSensingPooling
 │
-├── notebooks
-│   ├── Deconvolution_Algorithm.ipynb   # Main notebook implementing the deconvolution algorithm
-│   ├── Experiment_Analysis.ipynb       # Notebook for analyzing experimental results
-│   └── Linearity_Test.ipynb            # Notebook testing the linearity assumption
+├── Python Notebooks
+│   ├── 2_0_Algorithm.ipynb                   # Object-oriented Implementation of some of the most promising algorithms tested. Assessment of performance of different algorithms and different averaging strategies made here with buchwald-hartwig reactions
+│   ├── 3_0_Algorithm.ipynb                   # Latest version of the algorithm applied to Arylation of Meldrum’s acid and of Barbituric acid. With some intermidiate visualization too
+│   ├── Algorithm_playground.ipynb            # In this notebook there are some early experiments with custom implemetation of an optimizer and the use of a greedy approach for the optimizaiton (that didn't give rigorous results
+│   ├── Data_analysis_playground.ipynb        # Here some Exploratory Data Analysis is done on the data coming from Spotfire and towards the end there is the script to build a distance matrix (that might be wrong because not gasssian score, just distance)
+│   ├── Data_preprocessing.ipynb              # This notebook contains some useful functions to visualize and process the plates data that are imported from Spotfire as .csv file
+│   ├── Gebetic_Algorithm.ipynb               # Codebase for a genetic algorithm implementation of the solver. The result shows that there is a lot of variability of the parameter and in the definition of exploration and exploitation and therefore not a robust optimization techinque probably for this scope
+│   ├── Kirkman_matrix_designs.ipynb          # Code for producing the full kirkman matrices mentioned in the paper
+│   ├── Plate_constructor.ipynb               # Plate that from a list of catalysts (here as .csv file, but in the Spotfire documentation it takes directly from a GSheet) gives back the instruction for building a mixed experiment
+│   └── SpotfireProcessing.ipynb              # Implementation of the final verison of the code that will be used a Python Datafunction in Spotfire. The most recent version (with also the implementation of the chemical prior) is at the bottom)
 │
-├── data
-│   └── sample_data.csv                 # Example data for running the notebooks
+├── Data
+│   ├── cats_names_35.csv                     # List of 35 catalysts we use for our standard plate design
+│   └── embedding_df.csv                      # Dataframe containing the embedding coordinates (2D) that we obtain using our empirical-hand-made prior
 │
-├── spotfire
-│   ├── Spotfire_Integration_Guide.md   # Detailed guide on integrating with Spotfire
-│   └── data_functions                  # Folder containing Spotfire data functions (.sfd files)
+├── Spotfire
+│   ├── Mixing_experiment_user_guide.md       # Detailed guide on integrating with Spotfire our method. 
+│   ├── Lorenzo_M_E_deconvolution.sfd         # Spotfire data function file to import to implement the deconvolution algorithm
+│   └── Lorenzo_M_E_pooling.sfd         # Spotfire data function file to import to implement the pooling algorithm (a.k.a. designing the experiment)
 │
-├── requirements.txt                    # Required Python packages
-└── README.md                           # This README file
+├── requirements.txt                          # Required Python packages
+└── README.md                                 # This README file
 ```
 
 ## Getting Started
@@ -50,7 +58,10 @@ This repository demonstrates how to use combinatorial designs and compressed sen
 The `requirement.txt` includes the following essential packages:
 
   ```txt
- ... add stuff
+    numpy==1.24.1
+    pandas==1.5.2
+    cvxpy==1.5.3
+    scipy==1.14.1
   ```
 
 ## Integration with TIBCO Spotfire
