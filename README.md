@@ -1,5 +1,5 @@
 # Compressed-Sensing-to-Pooling-and-Deconvolution-of-Pd-Catalyzed-Cross-Coupling-Reactions-Experiments
-This repository contains Python implementations of the deconvolution algorithms presented in the paper titled "Compressed Sensing Approach to Pooling and Deconvolution of Pd-Catalyzed Cross-Coupling Reactions." The code uses compressed sensing techniques and group testing principles to efficiently screen catalysts in high-throughput experiments. Additionally, this repository includes a guide on integrating these methods as TIBCO Spotfire data functions.
+This repository contains Python implementations of the deconvolution algorithms presented in the paper titled "Compressed Sensing Approach to Pooling and Deconvolution of Pd-Catalyzed Cross-Coupling Reactions." An updated draft of the paper can be found [here](https://drive.google.com/file/d/10rbDDRqr5-LMHrAWEbvfnymOKy3wxHzL/view?usp=drive_link) The code uses compressed sensing techniques and group testing principles to efficiently screen catalysts in high-throughput experiments. Additionally, this repository includes a guide on integrating these methods as TIBCO Spotfire data functions.
 
 ## Table of Contents
 - [Overview](#overview)
