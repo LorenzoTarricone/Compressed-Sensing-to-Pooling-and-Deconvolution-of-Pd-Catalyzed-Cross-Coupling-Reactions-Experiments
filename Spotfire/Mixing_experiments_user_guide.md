@@ -1,11 +1,11 @@
 # Guided workflow for mixed experiments in Spotfire
-This small guide aims to give all the instructions to set up the experiment and later choose the parameters to perform the analysis of mixed experiments. Each input parameter will be discussed in its importance for determining the output and some practical suggestions will be given to facilitate the chose of the hyperparameter
+This small guide aims to give all the instructions to set up the experiment and later choose the parameters to perform the analysis of mixed experiments. Each input parameter will be discussed in its importance for determining the output and some practical suggestions will be given to facilitate the choice of the hyperparameter
 ## Pooling Algorithm / Plate Builder
 **Input:**
  - `cats_list` (column of Table): the list of catalysts we want to test for in our mixed experiment
 
 **Output:**
- - `pooling_df` (Table): data frame containing the instruction for the pooling. Each row is a pool to use in the experiment and the seven entries in the columns correspond to the different catalysts to use in that mixture
+ - `pooling_df` (Table): data frame containing the instructions for the pooling. Each row is a pool to use in the experiment, and the seven entries in the columns correspond to the different catalysts to use in that mixture
 
 **REMARK:** Not any arbitrary number of catalysts can be tested in a mixed experiment. To use a (partial or full) Kirkman matrix as a pooling matrix the number of catalysts to be tested needs to be either a **multiple of 5 (up to 35)** or a **multiple of 7 (up to 70)** an error message should come out in the debugging tool if the length of the input catalyst list is not correct
 
@@ -32,9 +32,13 @@ All the details to run your mixed experiments or replicate ours are available in
 -  `chemical_prior`: (Boolean) Switch that allows you to choose if you want to use the chemical prior (embeddings) for the reconstruction.
 
 **Input** (needed when using chemical prior)
-- `M_E_embedding_df`: (Table) Chemical prior input (corrected for typos and missing bits). Pandas data frame of dimension num_cats x embedding_dim with row index given by cats names (SPELLING SHOULD MATCH THE ONES IN cats_names ) this embedding should contain a vector for ALL the cats in cats_names
-- `lambdaa`: (Real) lambda parameter for the weight (positive) of the prior in the optimization problem. A higher value of lambda means more weight is given to the embeddings (our prior knowledge) and therefore the resulting good catalysts will tend to be from the same region of the embedding space. A value equal to zero is equivalent to the case without a chemical prior. It is suggested to start by experimenting with a small value (around 1) and then progressively increase it and rerun the analysis
-- `sigma`: (Real) Parameter defining the Gaussian of the similarity score (calculated from the distance between two embedding points). A very high value means to give all points the same importance independent of the distance and values close to zero correspond to the extreme case where all the points are considered too far. We suggest to start with a value corresponding to the average embedding distance
+- `M_E_embeddings_neutral`: (Table) Chemical prior input (corrected for typos and missing bits). Pandas data frame of dimension num_cats x embedding_dim with row index given by cats names (SPELLING SHOULD MATCH THE ONES IN cats_names ). This embedding should contain a vector for ALL the cats in cats_names
+-  `M_E_embeddings_bh`: (Table) Chemical prior input similar to M_E_embeddings_neutral but adjusted with a contrastive learning algorithm using Buchwald-Hartwig reactions.
+-  `M_E_embeddings_sm`: (Table) Chemical prior input similar to M_E_embeddings_neutral but adjusted with a contrastive learning algorithm using Suzuki-Miyaura reactions.
+-  `rxn_category`: (String) Tells the algorithm which prior to use (if used) options are `bh`, `sm` and `neutral`.
+- `lambdaa`: (Real) lambda parameter for the weight (positive) of the prior in the optimization problem. A higher value of lambda means more weight is given to the embeddings (our prior knowledge), and therefore, the resulting good catalysts will tend to be from the same region of the embedding space. A value equal to zero is equivalent to the case without a chemical prior. It is suggested to start by experimenting with a small value (around 1) and then progressively increase it and rerun the analysis
+- `epsilon`: (Real) reconstruction tolerance for the algorithm
+- `n_hitters_to_return`: (Integer) Number of top hitters (in order of score) that we will be returned from the compressed sensing algorithm. If the number of hitters (catalysts where the reconstructed score is more than 0.1) is less than this number, then all the hitters will be returned.
 
   **Output:**
 - `chem_cond_df`: (Table) Dataframe giving stats on the area% found in the different conditions. As a rule of thumb, having a condition with a small minimum and high maximum indicates a condition where the mixed experiments gave a good signal/noise ratio
