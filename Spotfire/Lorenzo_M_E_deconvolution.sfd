@@ -1,0 +1,862 @@
+<?xml version="1.0"?>
+<ScriptFunctionDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version Major="1" Minor="0" />
+  <Name>Mixed_experiments_deconvolution</Name>
+  <Script># Import necessary libraries for data manipulation, numerical operations, and convex optimization.
+import pandas as pd
+import numpy as np
+import cvxpy as cp
+
+# Import cdist from scipy.spatial.distance for calculating distances between points.
+from scipy.spatial.distance import cdist
+
+# -------------- DATA PREPARATION --------------
+
+# Filter the input dataframe 'data_raw' to only include rows matching the specified 'plate_number'.
+data_raw = data_raw[data_raw['PLATENUMBER'] == plate_number]
+# Reset the index of the filtered dataframe to ensure it's sequential (0, 1, 2, ...).
+data_raw.reset_index(drop=True, inplace=True)
+
+# Set the index of the catalyst embedding dataframe to the column named "Column 1" for easy lookup.
+embedding_df.set_index("Column 1", inplace=True)
+# Convert the 'CATALYST' column from the 'cats_names' dataframe into a list.
+cats_names = list(cats_names['CATALYST'])
+
+###########################################
+###### CHEM PRIOR MATRIX D CONSTRUCT ######
+###########################################
+
+#Pandas dataframe of dimension num_cats x embedding_dim with row index given by cats names (SPELLING SHOULD MATCH THE ONES IN cats_names ) this embedding should contain a vector for ALL the cats in cats_names
+if chemical_prior:
+  if rxn_category == 'bh':
+  # Check the reaction category to select the correct embeddings and parameters. bh and sm embeddings are adjustment of the neutral ones after a few steps of the Contrastive Learning algorithm
+    embeddings = embeddings_bh
+    # Set the scaling factor for the similarity score.
+    alpha = 5.0
+    # Set the sigma parameter for the Gaussian function, controlling the width of the similarity decay.
+    sigma = 1.73205080
+  elif rxn_category == 'sm':
+    embeddings = embeddings_sm
+    alpha = 5.0
+    sigma = 1.73205080
+  elif rxn_category == 'neutral':
+    embeddings = embeddings_neutral
+    alpha = 5.0
+    #The larger sigma is becuase the original coordinates are on a different scale and this number will create comparable similarity scores (tried empirically)
+    sigma = 300
+  else:
+    raise ValueError("rxn_category should be either 'bh' or 'sm'")
+
+  # Filter the embeddings dataframe to only keep catalysts present in the current experiment ('cats_names').
+  filtered_embeddings = embeddings[embeddings['catalyst_name'].isin(cats_names)].copy()
+  # Ensure the order of catalysts in 'filtered_embeddings' matches the order in 'cats_names'.
+  filtered_embeddings['catalyst_name'] = pd.Categorical(filtered_embeddings['catalyst_name'], categories=cats_names, ordered=True)
+  # Sort the dataframe based on the new categorical order.
+  filtered_embeddings = filtered_embeddings.sort_values('catalyst_name').reset_index(drop=True)
+
+  # Check for any catalysts in 'cats_names' that are missing from the embeddings dataframe
+  missing_names = set(cats_names) - set(embeddings["catalyst_name"])
+  # If there are any missing catalysts, print them and raise an error.
+  if len(missing_names) &gt; 0:
+    print("Names in 'names' list but not in 'embedding_bh[\"catalyst_name\"]':")
+    print(missing_names)
+    raise ValueError("Name of catalyst in 'names' list but not in the embedding dataframe")
+
+  #calculate distance matrix
+  from scipy.spatial.distance import cdist
+  # Calculate the pairwise Euclidean distance matrix between the catalyst embeddings (using dimensions 0 and 1).
+  distance_matrix = cdist(filtered_embeddings[['dim_0', 'dim_1']], filtered_embeddings[['dim_0', 'dim_1']])
+  # Convert the numpy distance matrix into a pandas DataFrame with catalyst names as indices and columns.
+  distance_matrix_df = pd.DataFrame(distance_matrix, index=filtered_embeddings['catalyst_name'], columns=filtered_embeddings['catalyst_name'])
+  
+  # Convert the distance matrix to a similarity matrix 'D_prime' using a Gaussian-like function.
+  # Larger distances result in smaller similarity scores.
+  D_prime = alpha * np.exp(-distance_matrix_df**2 / (2 * sigma**2))
+
+  #put zeroes on the main diagonal
+  np.fill_diagonal(D_prime.values, 0)
+  
+  # Now, create the final penalty matrix 'D' used in the LASSO-like optimization problem
+  N = D_prime.shape[0] #Number of catalysts
+  num_rows = N * (N - 1) // 2 # The number of rows in D is the number of unique pairs of catalysts, N*(N-1)/2.
+  D = np.zeros((num_rows, N)) # Initialize D as a matrix of zeros.
+
+  # Populate the matrix D. Each row corresponds to a pair of catalysts (i, j).
+  row_index = 0
+  for i in range(N):
+      for j in range(i + 1, N):
+         # Get the similarity score d_ij between catalyst i and j
+          d_ij = D_prime.iloc[i, j]
+          D[row_index, i] = -d_ij
+          D[row_index, j] = d_ij
+          row_index += 1
+  
+###########################################
+######## REFIND THE POOLING MATRIX ########
+###########################################
+
+#same as in the plate constructor data function
+#First matrix given explicitely
+M_15_35 = np.array([[1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0],
+              [0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0],
+              [0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0],
+              [0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0],
+              [0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0],
+              [1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1],
+              [0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1],
+              [0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0],
+              [0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0],
+              [0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1],
+              [1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0],
+              [0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0],
+              [0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0],
+              [0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0],
+              [0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0]])
+
+
+# Given triplets from https://www.gutenberg.org/files/26839/26839-pdf.pdf (p.107), we create teh second full matrix on the fly (not computationally expensive at all)
+triplets = [
+    [1, 8, 15], [2, 9, 16], [3, 10, 17], [4, 11, 18], [5, 12, 19], [6, 13, 20], [7, 14, 21],  # First Day
+    [1, 2, 6], [4, 5, 9], [7, 8, 12], [10, 11, 15], [13, 14, 18], [16, 17, 21], [19, 20, 3],  # Second Day
+    [7, 10, 16], [8, 11, 17], [12, 15, 21], [18, 19, 2], [20, 1, 9], [3, 5, 13], [4, 6, 14],  # Third Day
+    [13, 16, 1], [14, 17, 2], [18, 21, 6], [3, 4, 8], [5, 7, 15], [9, 11, 19], [10, 12, 20],  # Fourth Day
+    [4, 7, 13], [5, 8, 14], [9, 12, 18], [15, 16, 20], [17, 19, 6], [21, 2, 10], [1, 3, 11],  # Fifth Day
+    [1, 4, 10], [2, 5, 11], [6, 9, 15], [12, 13, 17], [14, 16, 3], [18, 20, 7], [19, 21, 8],  # Sixth Day
+    [2, 3, 7], [5, 6, 10], [8, 9, 13], [11, 12, 16], [14, 15, 19], [17, 18, 1], [20, 21, 4],  # Seventh Day
+    [10, 13, 19], [11, 14, 20], [15, 18, 3], [21, 1, 5], [2, 4, 12], [6, 8, 16], [7, 9, 17],  # Eighth Day
+    [16, 19, 4], [17, 20, 5], [21, 3, 9], [6, 7, 11], [8, 10, 15], [12, 14, 18], [13, 15, 2],  # Ninth Day
+    [19, 1, 7], [20, 2, 8], [3, 6, 12], [9, 10, 14], [11, 13, 21], [15, 17, 4], [16, 18, 5]   # Tenth Day
+]
+
+# Initialize an array of 0s, with 21 rows (one for each number) and 70 columns (one for each triplet)
+M_21_70 = np.zeros((21, 70), dtype=int)
+
+
+
+# Fill the M_21_70 with 1s according to the triplets
+for col_idx, triplet in enumerate(triplets):
+    for number in triplet:
+        M_21_70[number-1, col_idx] = 1  # -1 to adjust for 0-based indexing
+
+
+
+# Check if the number of catalysts is too small for a pooled experiment.
+if len(cats_names) &lt;= 24:
+  raise ValueError("For a small cats library (&lt;= 24) better to use single experiments!")
+
+
+
+# Logic to select and trim the correct pooling matrix based on the number of catalysts.
+if len(cats_names) == 35 or (len(cats_names)%5 == 0 and len(cats_names) &lt;= 35):
+  matrix_to_use = M_15_35[:,:len(cats_names)]
+  # Define the extra carbene name associated with this design.
+  extra_carbine_name = 'IPENT Cl'
+  
+
+
+
+elif len(cats_names)%7 ==0 and len(cats_names) &lt;= 70:
+  matrix_to_use = M_21_70[:,:len(cats_names)]
+  extra_carbine_name = ["IPENT Cl", "DiMel-HeptCl", "SIPr"]
+else:
+  raise ValueError(f"Number of catalysts should be a multipe of 5 or 7 for Kirkman matrix, instead the list of given catalysts is of dimension {len(cats_names)}! Please rerun the plate building script and make sure there the design of the plate was done correctly")
+
+
+
+# Recreate the list of catalyst pools for display purposes.
+overall_result = []
+for i in range(matrix_to_use.shape[0]):
+  # For each pool, get the names of the catalysts that are present (where the matrix value is not 0).
+  overall_result.append([cats_names[j] for j in range(matrix_to_use.shape[1]) if matrix_to_use[i,j] != 0])
+
+
+
+# Convert the list of lists of catalyst names into a list of comma-separated strings for easier display.
+overall_result_strings = []
+for inner_list in overall_result:
+  overall_result_strings.append(", ".join(inner_list))
+  
+
+
+###########################################
+############## PREPROCESSING ##############
+###########################################
+#For debugging purposes
+print(f"Shape of dataset before dropna(): {data_raw.shape}")
+
+#assuming that all the lines with N.A.s are non-inportant lines where the yield is zero
+df_not_nans = data_raw.dropna()
+
+# --- ADD THESE LINES FOR DEBUGGING ---
+print(f"Shape of dataset after dropna(): {df_not_nans.shape}")
+if df_not_nans.empty:
+  print("WARNING: df_not_nans is completely empty!")
+# ------------------------------------
+
+#Create a dataframe that stores the informtion about the SMs
+SM_dataframe = df_not_nans[(df_not_nans["COMPOUND"] == "lim SM")]
+
+#make all the entries of column SAMPLENUMBER of type int
+df_not_nans['SAMPLENUMBER'] = df_not_nans['SAMPLENUMBER'].astype(int)
+
+#Get the maximum number of timepoints present
+max_time = np.max(df_not_nans['SAMPLENUMBER'].unique())
+print("Max Time is:", max_time)
+
+#For each timepoint calculate the fraction of vials with some starting material inside
+perc_of_vials_with_sm = []
+for time in range(1, max_time+1):
+  perc_of_vials_with_sm.append(SM_dataframe[SM_dataframe["SAMPLENUMBER"] == time].shape[0] / 96 * 100)
+
+df_perc_of_sm = pd.DataFrame(np.array(perc_of_vials_with_sm).reshape(1, -1), 
+                             index=["Percentage"], 
+                             columns=[f"Timepoint {i}" for i in range(1, max_time + 1)])
+#add to the df another column with the average value
+df_perc_of_sm["Average"] = df_perc_of_sm.mean(axis=1)
+
+#Transform them into time weights
+time_weights = np.array(perc_of_vials_with_sm) / np.sum(perc_of_vials_with_sm)
+if SM_weights:
+  print("Time weights are:", time_weights)
+
+#Create df with other unknown things 
+df_other_stuff = df_not_nans[(df_not_nans["COMPOUND"] != "lim SM") &amp; (df_not_nans["COMPOUND"] != "Product") &amp; (df_not_nans["COMPOUND"] != "other SM")]
+
+#get avg min max for each timepoints 
+otherstuff_data = []
+for time in range(1, max_time+1):
+  other_t = df_other_stuff[df_other_stuff["SAMPLENUMBER"] == time]
+  otherstuff_data.append([other_t["AREA_TOTAL_REDUCED"].mean(), other_t["AREA_TOTAL_REDUCED"].min(), other_t["AREA_TOTAL_REDUCED"].max()])
+
+#make a dataframe with the data 
+other_df = pd.DataFrame(np.array(otherstuff_data), 
+                             index=[f"Timepoint {i}" for i in range(1, max_time + 1)], 
+                             columns=["AVG area%", "MIN area%", "MAX area%"])
+                             
+other_df.insert(0, 'Timepoint', range(1, max_time+1))
+
+#Isolate dataframe with just product 
+product_df = df_not_nans[df_not_nans["COMPOUND"] == "Product"]
+
+
+#Extract names of the solvelt/base
+chem = df_not_nans["ColumnLabel"]
+
+
+chem_num = [int(s.split(':')[0])-1 for s in chem]
+
+chem_names = [chem[i][3:-1] for i in range(len(chem))]
+#unite the two lists in a dictionary with key chem num and with value chem names
+chem_dict = dict(zip(chem_num, chem_names))
+
+
+#the column PlateRow has letters from A to H, transform it in numbers form 1 to 8 because needed for indexing
+mapping = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7, 'H': 8}
+product_df['PLATEROW'] = product_df['PLATEROW'].map(mapping)
+
+
+#initialize array for storing resutls
+final_array = np.zeros((8, 12, max_time))
+
+#fill the array with the data
+for index, row in product_df.iterrows():
+  final_array[row['PLATEROW']-1, row['PLATECOLUMN']-1 ,row['SAMPLENUMBER']-1] = row['AREA_TOTAL_REDUCED']
+
+#time correction: for each condition and each mixture combination, if there is another timepoint with a value different than zero, it uses that.
+#This is due to the fact that sometimes we see some yield that at a following timestep disappears, which is not possible of course and is an error of the measuring robot we need to correct for.
+if time_correction:
+  for t in range(1,max_time):
+    for i in range(final_array.shape[0]):
+      for j in range(final_array.shape[1]):
+        if final_array[i,j,t] == 0 and final_array[i,j,t-1] != 0:
+          final_array[i,j,t] = final_array[i,j,t-1]
+
+
+#now we can decide to to the max or the average of all timepoints, we decide to do the average with or without SM weights
+if SM_weights:
+  final_array = np.average(final_array, axis=2, weights=time_weights)
+else:
+  final_array = np.mean(final_array, axis=2)
+
+#If there is at least one condition in which the carbine has more than 50% yield, then we should consider this class of Pd-ligands for the follow up screaning
+if matrix_to_use.shape[0] == 15:
+  if np.max(final_array[7,6:]) &gt;= 20:
+    print("Should consider carbine in the analysis")
+  else:
+    print("Can discard Carbines for follow-up plate ")
+elif matrix_to_use.shape[0] == 21:
+  #TO CHECK IF DESIGN OF BIG PLATE IS HOW GEORG WANTS
+  if np.max(final_array[5,2::3]) &gt;= 20:
+    print("Should consider IPENT Cl in the analysis")
+  elif np.max(final_array[6,2::3]) &gt;= 20:
+    print("Should consider DiMel-HeptCl in the analysis")
+  elif np.max(final_array[7,2::3]) &gt;= 20:
+    print("Should consider SIPr in the analysis")
+  else:
+    print("Can discard Carbines for follow-up plate ")
+else:
+  print("Please check the deduced pooling matrix as there might be a bug")
+  
+
+# Reshape the 8x12 plate data into a format that aligns with the pooling matrix experiments.
+# This operation is specific to the plate layout design.
+reshaped_plate = np.concatenate((final_array[:,:6], final_array[:7,6:]), axis=0).T
+
+# Create a pandas DataFrame from the reshaped plate data for better visualization and analysis.
+df_reshaped_plate = pd.DataFrame(reshaped_plate)
+# Set the column names to the string representations of the catalyst pools.
+df_reshaped_plate.columns = [overall_result_strings[i] for i in range(reshaped_plate.shape[1])]
+# Set the row index to the names of the chemical conditions.
+df_reshaped_plate.index = [chem_dict[i] for i in range(reshaped_plate.shape[0])]
+# Insert a column at the beginning with the condition names.
+df_reshaped_plate.insert(0, 'Conditions', df_reshaped_plate.index)
+
+
+#select a tollerance of number of yields that can be differnet from zero across ligands for a given solvent/base condition and select all the conditions that have produced significant yield across all experiments
+indices_to_keep = []
+for i in range(reshaped_plate.shape[0]):
+ # Keep the condition if the number of experiments with non-zero yield is above a tolerance 'toll_exp'.
+  if np.sum(reshaped_plate[i,:] &gt; 0) &gt; toll_exp:
+    indices_to_keep.append(i)
+
+print("The selected conditions are:", indices_to_keep)
+
+# Identify the top two conditions based on the highest total yield across all experiments.
+top_two_indices = np.argsort(np.sum(reshaped_plate, axis = 1))[-2:][::-1]
+#Print top two conditions from chem_dict
+print("The best two conditions are", [chem_dict[i] for i in top_two_indices])
+
+# Calculate summary statistics for each chemical condition.
+sum_array = np.sum(reshaped_plate, axis = 1) #Sum of yields
+avg_array = np.mean(reshaped_plate, axis = 1) #Average yield
+min_array = np.min(reshaped_plate, axis = 1) #Minimum yield
+max_array = np.max(reshaped_plate, axis = 1) #Maximum yield
+# Get the indices that would sort the conditions by their sum of yields.
+sorted_args = np.argsort(sum_array)
+# Create a summary DataFrame.
+chem_cond_df = pd.DataFrame([[chem_dict[i] for i in sorted_args], np.sort(avg_array), np.sort(min_array), np.sort(max_array)]).T
+#give title to column
+chem_cond_df.columns = ['Chemical Condition', 'AVG area%', 'MIN area%', 'MAX area%']
+#invert the order of the rows
+chem_cond_df = chem_cond_df.iloc[::-1]
+
+
+#use average of the signal from all conditions as it is the thing that seems to work the best for now
+y_averaged_signal = np.mean(reshaped_plate[indices_to_keep,:], axis=0)
+
+# Define the pooling matrix M to be used in the compressed sensing algorithm.
+M = matrix_to_use
+
+
+def Compressed_Sensing_CVXPY(M, y, n_hit, true_negatives = set([]), epsilon = 10, verbose=False):
+  """
+  Performs compressed sensing using L1-norm minimization to identify the most significant contributors 
+  to a given outcome vector `y` based on a sensing matrix `M`. This method is useful for selecting a 
+  subset of potential "hitters" from a larger pool, especially in scenarios involving sparse solutions.
+
+  Parameters:
+  -----------
+  M : numpy.ndarray
+      The sensing matrix (m x n) representing the experimental design or data matrix where `m` is the 
+      number of observations and `n` is the number of features.
+  
+  y : numpy.ndarray
+      The outcome vector (m x 1), representing the observed results from the experiments or measurements.
+  
+  n_hit : int
+      The maximum number of potential "hitters" (i.e., significant contributors) to be identified based on their yield.
+
+  true_negatives : set, optional (default=set([]))
+      A set of indices representing features known to be true negatives. These indices will be constrained 
+      to be zero in the optimization.
+
+  epsilon : float, optional (default=0.1)
+      The tolerance level for the optimization constraint, representing how close the reconstructed outcome 
+      (M @ x) should be to the actual outcome `y`. Smaller values enforce stricter matching.
+
+  verbose : bool, optional (default=False)
+      If True, prints detailed information about the optimization process, such as status, optimal solution, 
+      and yields.
+
+  Returns:
+  --------
+  top_hitters_names : list
+      A list of the names (labels) of the top `n_hit` most significant contributors in descending order of yield. 
+      These correspond to the indices with the highest values in the optimization solution.
+
+  top_hitters_yields : list
+      A list of the yield values corresponding to the top `n_hit` most significant contributors.
+
+  Notes:
+  ------
+  - The function uses the CVXPY library to solve an L1-norm minimization problem, which is a common approach 
+    in compressed sensing for promoting sparsity in the solution.
+  - The problem is formulated as: 
+    `minimize ||x||_1 subject to ||y - M @ x||_2 &lt;= epsilon`
+    with an additional constraint that `x[true_neg_indices] == 0` if `true_negatives` is provided.
+  - The `delta` parameter is a threshold used internally to identify non-zero elements in the solution vector `x`.
+
+  Example:
+  --------
+  &gt;&gt;&gt; M = np.array([[1, 0.5], [0.4, 1.2], [0.7, 0.8]])
+  &gt;&gt;&gt; y = np.array([0.8, 1.1, 0.9])
+  &gt;&gt;&gt; n_hit = 1
+  &gt;&gt;&gt; true_negatives = {1}
+  &gt;&gt;&gt; top_hitters_names, top_hitters_yields = Compressed_Sensing_CVXPY(M, y, n_hit, true_negatives=true_negatives, epsilon=0.1, verbose=True)
+  Status: optimal
+  Optimal value of optimization problem: ...
+  Optimal solution: ...
+  Top 1 hitters: ['Hitter_1']
+  With yield: [0.8]
+
+  """
+
+  ### L1 NORM ###
+   # Get the number of catalysts (features)
+  n = M.shape[1]
+
+  # Get the list of indices known to be non-hitters
+  true_neg_indices = list(true_negatives)
+  true_neg_indices.sort()
+  
+  # Define the optimization variable 'x_l1' of size n. This will hold the deconvolved catalyst scores.
+  x_l1 = cp.Variable(shape=n)
+
+  # Setup the problem.
+  obj = cp.Minimize( cp.norm(x_l1, 1) )
+  if len(true_negatives) &gt; 0:
+    # Define the constraints for the optimization problem.
+    # The primary constraint is that the L2 norm of the residual (y - M@x) must be less than epsilon.
+    # This means the reconstructed signal M@x must be close to the measured signal y.
+    # If there are known true negatives, add a constraint that their corresponding values in x must be zero.
+    constraints = [cp.norm2(y - M @ x_l1) &lt;= epsilon, x_l1[true_neg_indices] == 0, x_l1 &gt;= 0]
+  else:
+    constraints = [cp.norm2(y - M @ x_l1) &lt;= epsilon, x_l1 &gt;= 0]
+  prob = cp.Problem(obj, constraints)
+  prob.solve()
+  
+  # --- ROBUSTNESS MODIFICATION: Check solver status ---
+  # It's crucial to verify that the solver found an optimal solution.
+  if prob.status not in ["optimal", "optimal_inaccurate"]:
+        print(f"Warning: Solver did not find an optimal solution. Status is: {prob.status}. Maybe try to change the tollerance epsilon and retry")
+        # Return empty lists as the result is not reliable.
+        return [], []
+  # ----------------------------------------------------
+  
+  if verbose:
+    print("Status: ", prob.status)
+    print("Optimal value of optimization problem", obj.value)
+
+  # Get the full solution vector containing the calculated activity for ALL catalysts.
+  solution_vector = x_l1.value
+  
+  # Get the indices that would sort the solution vector in descending order of yield.
+  # np.argsort() returns indices from smallest to largest, so we reverse it with [::-1].
+  sorted_indices = np.argsort(solution_vector)[::-1]
+  
+  # Select the top 'n_hit' indices from the sorted list.
+  top_n_indices = sorted_indices[:n_hit]
+  
+  # Get the names corresponding to the top indices.
+  top_hitters_names = [cats_names[i] for i in top_n_indices]
+  
+  # Get the actual yield values for these top catalysts from the full solution vector.
+  top_hitters_yields = solution_vector[top_n_indices]
+
+  if verbose:
+    print(f"Top {n_hit} overall catalysts:", top_hitters_names)
+    print("With yields:", top_hitters_yields)
+
+  # Return the top n_hit names and their corresponding yields.
+  return top_hitters_names, list(top_hitters_yields)
+
+  #return the top n new possible hitters in terms of yield
+  combined = list(zip(new_possible_hits, yield_of_hitters))
+  sorted_combined = sorted(combined, key=lambda x: x[1], reverse=True)
+  top_n_hitters = [x[0] for x in sorted_combined[:n_hit]]
+
+  names = cats_names
+  top_hitters_names = [names[i] for i in top_n_hitters]
+
+  if verbose:
+    print("Top", n_hit, "hitters", top_hitters_names)
+    print("With yield", [x[1] for x in sorted_combined[:n_hit]] )
+
+
+  return top_hitters_names, [x[1] for x in sorted_combined[:n_hit]]
+
+def Compressed_Sensing_CVXPY_prior(M, y, n_hit, D, lambdaa, true_negatives = set([]), epsilon = 10, verbose=False):
+
+  """
+  Performs compressed sensing using L1 norm optimization with CVXPY, while incorporating prior knowledge about true negative indices.
+  
+  The function solves an L1 regularized optimization problem to identify the top `n_hit` elements from a given dataset, subject to constraints. It attempts to minimize the L1 norm of the solution while also penalizing based on a transformation matrix `D`. The algorithm can exclude specific indices (provided via `true_negatives`) from being considered as potential "hits."
+
+  ### Parameters
+  ----------
+  M : numpy.ndarray
+      The measurement matrix (design matrix) with dimensions (m, n), where 'm' is the number of measurements and 'n' is the number of potential variables.
+      
+  y : numpy.ndarray
+      The observed measurements vector with length 'm'.
+      
+  n_hit : int
+      The number of top elements (hits) to return based on their yield (importance).
+      
+  D : numpy.ndarray
+      A transformation matrix applied as a regularizer in the objective function. It has dimensions compatible with 'n' (e.g., (p, n)).
+      
+  lambdaa : float
+      The regularization parameter that balances the sparsity term (L1 norm) and the regularization imposed by the matrix `D`.
+      
+  true_negatives : set, optional (default=set([]))
+      A set of indices representing known "true negatives" that should be forced to be zero in the optimization problem.
+      
+  epsilon : float, optional (default=0.1)
+      The maximum allowable error between the observed vector `y` and the predicted measurements `M @ x`.
+      
+  verbose : bool, optional (default=False)
+      If True, prints detailed information about the optimization process, including status, solution, and selected hits.
+
+  ### Returns
+  -------
+  top_hitters_names : list
+      A list containing the names of the top `n_hit` elements based on their yield values.
+      
+  top_yield : list
+      A list containing the corresponding yield values of the top `n_hit` elements.
+
+  ### Process
+  ----------
+  1. Defines an L1 norm optimization problem using the CVXPY library.
+  2. Incorporates the `true_negatives` by forcing specific indices of the solution `x_l1` to be zero.
+  3. Solves the problem and identifies indices with values above a certain threshold (0.1 by default) as potential hits.
+  4. Selects the top `n_hit` elements based on yield and returns their names and yields.
+
+  ### Example
+  ---------
+  ```python
+  M = np.array([[1, 0], [0, 1]])
+  y = np.array([1, 1])
+  n_hit = 1
+  D = np.array([[1, -1]])
+  lambdaa = 0.5
+  true_negatives = {0}
+  
+  top_hitters_names, top_yield = Compressed_Sensing_CVXPY_prior(M, y, n_hit, D, lambdaa, true_negatives)
+  print("Top Hitters Names:", top_hitters_names)
+  print("Top Yield:", top_yield)
+  ```
+  
+  ### Notes
+  -----
+  - This function requires the `cvxpy` library to be installed (`pip install cvxpy`).
+  - It assumes that `cats_names` is a globally defined list that maps indices to names.
+
+  """
+  ### L1 NORM ###
+  # Get the number of catalysts.
+  n = M.shape[1]
+
+  # Get the list of known non-hitters.
+  true_neg_indices = list(true_negatives)
+  true_neg_indices.sort()
+
+  # Define the optimization variable 'x_l1'.
+  x_l1 = cp.Variable(shape=n)
+  D_cvxpy = cp.Parameter(shape=D.shape, value=D)
+
+
+  # The objective function includes both the L1 norm for sparsity and the chemical prior penalty.
+  obj = cp.Minimize( cp.norm(x_l1, 1) + lambdaa * cp.norm(D_cvxpy @ x_l1, 1) )
+
+  if len(true_negatives) &gt; 0:
+    constraints = [cp.norm2(y - M @ x_l1) &lt;= epsilon, x_l1[true_neg_indices] == 0, x_l1 &gt;= 0]
+  else:
+    constraints = [cp.norm2(y - M @ x_l1) &lt;= epsilon, x_l1 &gt;= 0]
+  prob = cp.Problem(obj, constraints)
+  prob.solve()
+  
+  # --- ROBUSTNESS MODIFICATION: Check solver status ---
+  # It's crucial to verify that the solver found an optimal solution.
+  if prob.status not in ["optimal", "optimal_inaccurate"]:
+        print(f"Warning: Solver did not find an optimal solution. Status is: {prob.status}")
+        # Return empty lists as the result is not reliable.
+        return [], []
+  # ----------------------------------------------------
+  
+  if verbose:
+    print("Status: ", prob.status)
+    print("Optimal value of optimization problem", obj.value)
+
+  # Get the full solution vector containing the calculated activity for ALL catalysts.
+  solution_vector = x_l1.value
+  
+  # Get the indices that would sort the solution vector in descending order of yield.
+  # np.argsort() returns indices from smallest to largest, so we reverse it with [::-1].
+  sorted_indices = np.argsort(solution_vector)[::-1]
+  
+  # Select the top 'n_hit' indices from the sorted list.
+  top_n_indices = sorted_indices[:n_hit]
+  
+  # Get the names corresponding to the top indices.
+  top_hitters_names = [cats_names[i] for i in top_n_indices]
+  
+  # Get the actual yield values for these top catalysts from the full solution vector.
+  top_hitters_yields = solution_vector[top_n_indices]
+
+  if verbose:
+    print(f"Top {n_hit} overall catalysts:", top_hitters_names)
+    print("With yields:", top_hitters_yields)
+
+  # Return the top n_hit names and their corresponding yields.
+  return top_hitters_names, list(top_hitters_yields)
+
+
+if not chemical_prior:
+  top_hitters_names, top_hitters_yields = Compressed_Sensing_CVXPY(M, y_averaged_signal, verbose = False, n_hit = n_hitters_to_return)
+if chemical_prior:
+  top_hitters_names, top_hitters_yields = Compressed_Sensing_CVXPY_prior(M, y_averaged_signal,  D = D, lambdaa = lambdaa, verbose = False, n_hit = n_hitters_to_return,)
+
+if matrix_to_use.shape[0] == 15:
+  pool_size = matrix_to_use.shape[1] // 5
+if matrix_to_use.shape[0] == 21:
+  pool_size = matrix_to_use.shape[1] // 7
+
+result_final = pd.DataFrame({'Hitters': top_hitters_names, 'Reconstructed Yield': [top_hitters_yields[i] * pool_size for i in range(len(top_hitters_yields))]})
+
+# Optional block to reconstruct the full yield matrix for every catalyst under every condition.
+if reconstruct_all:
+  # Initialize a list to store the reconstructed data for each condition.
+  complete_data = []
+  # Iterate over each chemical condition.
+  for cond in range(reshaped_plate.shape[0]):
+    if chemical_prior:
+      # Get all possible hits by setting n_hit to the total number of catalysts.
+      indices, yields = Compressed_Sensing_CVXPY_prior(M, reshaped_plate[cond], verbose=False, n_hit=M.shape[1], D=D, lambdaa=lambdaa, epsilon=epsilon)
+    else:
+      indices, yields = Compressed_Sensing_CVXPY(M, reshaped_plate[cond], verbose=False, n_hit=M.shape[1], epsilon=epsilon)
+    
+    # Create a full vector of zeros for all catalysts.
+    new_vec = np.zeros(M.shape[1])
+    # Populate the vector with the reconstructed yields at the correct indices.
+    # Note: the original code had a bug here, mapping indices to different indices. Corrected to use the direct mapping.
+    for i in range(len(indices)):
+        # `indices` here contains the original catalyst indices.
+        catalyst_index = cats_names.index(indices[i]) 
+        new_vec[catalyst_index] = yields[i]
+    # Add the complete vector for this condition to our list.
+    complete_data.append(new_vec)
+      
+  # Convert the list of arrays into a single numpy matrix.
+  complete_data = np.array(complete_data)
+
+  # Normalize the entire dataset so the maximum value is 100.
+  if np.max(complete_data) &gt; 0: # Avoid division by zero if all yields are zero
+    complete_data = complete_data / np.max(complete_data) * 100
+
+  # Create a final DataFrame from the fully reconstructed data.
+  df_complete_data = pd.DataFrame(complete_data)
+  # Set column names to catalyst names.
+  df_complete_data.columns = cats_names
+  # Set row index to chemical condition names.
+  df_complete_data.index = [chem_dict[i] for i in range(complete_data.shape[0])]
+  # Add the 'Conditions' column.
+  df_complete_data.insert(0, 'Conditions', df_complete_data.index)
+  
+</Script>
+  <Language>Python</Language>
+  <Input>
+    <Name>data_raw</Name>
+    <Type>Table</Type>
+    <DisplayName>data_raw</DisplayName>
+    <Description>Data of the plate we want to analyze </Description>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>String</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>time_correction</Name>
+    <Type>Value</Type>
+    <DisplayName>Time_correction</DisplayName>
+    <Description>Decides if we correct for disappearing area% in future timepoints</Description>
+    <AllowedDataType>Bool</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>SM_weights</Name>
+    <Type>Value</Type>
+    <DisplayName>SM_weights</DisplayName>
+    <Description>Decudes if we use the fraction of experiments with starting material inside as weights for mixing between timepoints. Not recomended when ther are SAMPLEPOINTS with a lot of overall area% and not a lot SM</Description>
+    <AllowedDataType>Bool</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>toll_exp</Name>
+    <Type>Value</Type>
+    <DisplayName>toll_exp</DisplayName>
+    <Description>For a fixed solvent/base condition, decides minimnum number of mixed experiments that should have area% != 0 in order to consider the chemical condition for the average</Description>
+    <AllowedDataType>Integer</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>cats_names</Name>
+    <Type>Table</Type>
+    <DisplayName>cats_names</DisplayName>
+    <Description>Cats names needed to find again the matrix that was used for the pooling</Description>
+    <AllowedDataType>String</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>reconstruct_all</Name>
+    <Type>Value</Type>
+    <DisplayName>reconstruct_all</DisplayName>
+    <Description>reconsturct all the yields of the catalysts in different conditions</Description>
+    <AllowedDataType>Bool</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>chemical_prior</Name>
+    <Type>Value</Type>
+    <DisplayName>chemical_prior</DisplayName>
+    <Description>Wether or not to use the chemical prior for the reconstructon</Description>
+    <AllowedDataType>Bool</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>lambdaa</Name>
+    <Type>Value</Type>
+    <DisplayName>lambdaa</DisplayName>
+    <Description>lambda parameter for the weight of the prior in the optimizatio problem (SHOULD BE TUNED)</Description>
+    <IsOptional>true</IsOptional>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>Decimal</AllowedDataType>
+    <AllowedDataType>Long</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>embedding_df</Name>
+    <Type>Table</Type>
+    <DisplayName>embedding_df</DisplayName>
+    <Description>Chemical prior inpit (corrected for typos and missing bits). Pandas dataframe of dimension num_cats x embedding_dim with row index given by cats names (SPELLING SHOULD MATCH THE ONES IN cats_names ) this embedding should contain a vector for ALL the cats in cats_names</Description>
+    <IsOptional>true</IsOptional>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>Decimal</AllowedDataType>
+    <AllowedDataType>String</AllowedDataType>
+    <AllowedDataType>Long</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>plate_number</Name>
+    <Type>Value</Type>
+    <DisplayName>plate_number</DisplayName>
+    <Description>Plate number to filter for at the beginning of the algorithm </Description>
+    <AllowedDataType>Integer</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>embeddings_neutral</Name>
+    <Type>Table</Type>
+    <DisplayName>embeddings_neutral</DisplayName>
+    <Description>Embeddings neutral with the coordinates as in our RoSL poster </Description>
+    <IsOptional>true</IsOptional>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>Decimal</AllowedDataType>
+    <AllowedDataType>String</AllowedDataType>
+    <AllowedDataType>Long</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>embeddings_bh</Name>
+    <Type>Table</Type>
+    <DisplayName>embeddings_bh</DisplayName>
+    <Description>Embeddings for bh ractions. Starting from the coordinates in the poster, 10 iterations of updating is done with the contrastive learning algorithm</Description>
+    <IsOptional>true</IsOptional>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>Decimal</AllowedDataType>
+    <AllowedDataType>String</AllowedDataType>
+    <AllowedDataType>Long</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>embeddings_sm</Name>
+    <Type>Table</Type>
+    <DisplayName>embeddings_sm</DisplayName>
+    <Description>Emebddings for Suziki-Miyaura. Obtained from the coordinates on the poster updated for 20 staps of the contrastive learning algorithm</Description>
+    <IsOptional>true</IsOptional>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>Decimal</AllowedDataType>
+    <AllowedDataType>String</AllowedDataType>
+    <AllowedDataType>Long</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>rxn_category</Name>
+    <Type>Value</Type>
+    <DisplayName>rxn_category</DisplayName>
+    <Description>Which corrected embedding tyoe should be used. Possibilities are: 'neutral', 'bh', 'sm'</Description>
+    <IsOptional>true</IsOptional>
+    <AllowedDataType>String</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>n_hitters_to_return</Name>
+    <Type>Value</Type>
+    <DisplayName>n_hitters_to_return</DisplayName>
+    <Description>Number of top hitters (in order of score) that we will be returned from the compressed sensing algorithm. If the number of hitters (catalysts where the reconstructed score is more than 0.1) is less than this number, then all the hitters will be returned. </Description>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>Decimal</AllowedDataType>
+    <AllowedDataType>Long</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>epsilon</Name>
+    <Type>Value</Type>
+    <DisplayName>epsilon</DisplayName>
+    <Description>Reconstruction error tollerance for the compressed sensing algorithm</Description>
+    <AllowedDataType>Integer</AllowedDataType>
+    <AllowedDataType>Double</AllowedDataType>
+    <AllowedDataType>Float</AllowedDataType>
+    <AllowedDataType>Decimal</AllowedDataType>
+    <AllowedDataType>Long</AllowedDataType>
+  </Input>
+  <Output>
+    <Name>chem_cond_df</Name>
+    <Type>Table</Type>
+    <DisplayName>chem_cond_df</DisplayName>
+    <Description>Dataframe giving stats on the area% found in the different conditions</Description>
+  </Output>
+  <Output>
+    <Name>result_final</Name>
+    <Type>Table</Type>
+    <DisplayName>result_final</DisplayName>
+    <Description>Dataframe giving the reconstructed area% (or better score) for the top 12 catalysts found</Description>
+  </Output>
+  <Output>
+    <Name>df_perc_of_sm</Name>
+    <Type>Table</Type>
+    <DisplayName>df_perc_of_sm</DisplayName>
+    <Description>Dataframe giving information about the percentage of vials in the late with some limiting starting material (for each sample point)</Description>
+  </Output>
+  <Output>
+    <Name>other_df</Name>
+    <Type>Table</Type>
+    <DisplayName>other_df</DisplayName>
+    <Description>Dataframe giving information about the amount of other materials (not "Produc"t or " lim SM" or "other SM" at each sample point</Description>
+  </Output>
+  <Output>
+    <Name>df_reshaped_plate</Name>
+    <Type>Table</Type>
+    <DisplayName>df_reshaped_plate</DisplayName>
+    <Description>Dataframe giving the result of the experimental plate in the shape: N_conditions X N_ mixtures</Description>
+  </Output>
+  <Output>
+    <Name>df_complete_data</Name>
+    <Type>Table</Type>
+    <DisplayName>df_complete_data</DisplayName>
+    <Description>Dataframe giving the result of the deconvolution (normalized so that maximum score is 100) in the shape of N_conditions X N_catalysts</Description>
+  </Output>
+  <Description>Deconvolution procedure for the mixed experiments</Description>
+  <ApprovalStamp>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAltRrRzoxskS3yZa25mY7PgAAAAACAAAAAAADZgAAwAAAABAAAABcJdKZkQEQ5+32dQxYUjt5AAAAAASAAACgAAAAEAAAAK4ww/vdsSlHDBjqvKsQe9qIAAAAJfukutD8jhrZlwnCFqJTliFPCtCaIfyCHHa9LvhdVa6eAwZ9HT9bPS6qTD+GswnigYdX54rovCWSmHHgjQ/IA2Xwm9J99KzSmgEm6vKS+c/xSz/4H8IhbCOpT/y5Sj5mzuqbC5c9d2vfqTsGHOmjj6fstKSik75Lzj8lnZ+qnMyCZtKfFMEPxRQAAABb+q4c3b1MGToU2QQamNk79GT2vg==</ApprovalStamp>
+  <AdditionalApprovalStamps />
+  <Category>default</Category>
+</ScriptFunctionDefinition>
