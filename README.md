@@ -16,16 +16,17 @@ This repository demonstrates how to use combinatorial designs and compressed sen
 /CompressedSensingPooling
 │
 ├── Python Notebooks
-│   ├── 2_0_Algorithm.ipynb                   # Object-oriented Implementation of some of the most promising algorithms tested. Assessment of performance of different algorithms and different averaging strategies made here with Buchwald-hartwig reactions
-│   ├── 3_0_Algorithm.ipynb                   # Latest version of the algorithm applied to Arylation of Meldrum’s acid and of Barbituric acid. With some intermediate visualization too
-│   ├── Algorithm_playground.ipynb            # In this notebook there are some early experiments with custom implementation of an optimizer and the use of a greedy approach for the optimization (that didn't give rigorous results
-│   ├── Data_analysis_playground.ipynb        # Here some Exploratory Data Analysis is done on the data coming from Spotfire and towards the end there is the script to build a distance matrix (that might be wrong because not Gasssian score, just distance)
+│   ├── 2_0_Algorithm.ipynb                   # Object-oriented Implementation of some of the most promising algorithms tested. Assessment of the performance of different algorithms and different averaging strategies was made here with Buchwald-Hartwig reactions
+│   ├── 3_0_Algorithm.ipynb                   # Latest version of the algorithm applied to Arylation of Meldrum’s acid and of Barbituric acid. With some intermediate visualisation too
+│   ├── Algorithm_playground.ipynb            # In this notebook, there are some early experiments witha  custom implementation of an optimiser and the use of a greedy approach for the optimization (that didn't give rigorous results
+│   ├── Data_analysis_playground.ipynb        # Here some Exploratory Data Analysis is done on the data coming from Spotfire and towards the end there is the script to build a distance matrix (that might be wrong because not Gaussian score, just distance)
 │   ├── Data_preprocessing.ipynb              # This notebook contains some useful functions to visualize and process the plates data that are imported from Spotfire as .csv file
-│   ├── Genetic_Algorithm.ipynb               # Codebase for a genetic algorithm implementation of the solver. The result shows that there is a lot of variability of the parameter and in the definition of exploration and exploitation and therefore not a robust optimization technique probably for this scope
+│   ├── Genetic_Algorithm.ipynb               # Codebase for a genetic algorithm implementation of the solver. The result shows that there is a lot of variability of the parameter and in the definition of exploration and exploitation, and therefore not a robust optimisation technique, probably for this scope
 │   ├── Kirkman_matrix_designs.ipynb          # Code for producing the full Kirkman matrices mentioned in the paper
 │   ├── Plate_constructor.ipynb               # Plate that from a list of catalysts (here as .csv file, but in the Spotfire documentation it takes directly from a GSheet) gives back the instruction for building a mixed experiment
-│   └── SpotfireProcessing.ipynb              # Implementation of the final version of the code that will be used a Python data function in Spotfire. The most recent version (with also the implementation of the chemical prior) is at the bottom)
-│
+│   ├── SpotfireProcessing.ipynb              # Implementation of the final version of the code that will be used as a Python data function in Spotfire. The most recent version (with the implementation of the chemical prior) is at the bottom.
+|   └── Embeddings_to_D_matrix.ipynb          # Script that allows to pass directly from some embeddings of catalysts to the matrix D to use in the Lasso loss
+│ 
 ├── Data
 │   ├── cats_names_35.csv                     # List of 35 catalysts we use for our standard plate design
 │   └── embedding_df.csv                      # Dataframe containing the embedding coordinates (2D) that we obtain using our empirical-hand-made prior
