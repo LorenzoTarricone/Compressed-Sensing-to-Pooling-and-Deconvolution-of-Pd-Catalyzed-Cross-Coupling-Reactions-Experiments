@@ -213,7 +213,11 @@ df_perc_of_sm = pd.DataFrame(np.array(perc_of_vials_with_sm).reshape(1, -1),
 df_perc_of_sm["Average"] = df_perc_of_sm.mean(axis=1)
 
 #Transform them into time weights
-time_weights = np.array(perc_of_vials_with_sm) / np.sum(perc_of_vials_with_sm)
+sum_weights = np.sum(perc_of_vials_with_sm)
+if sum_weights &gt; 0:
+  time_weights = np.array(perc_of_vials_with_sm) / sum_weights
+else:
+  time_weights = np.ones(len(perc_of_vials_with_sm)) / len(perc_of_vials_with_sm)
 if SM_weights:
   print("Time weights are:", time_weights)
 
