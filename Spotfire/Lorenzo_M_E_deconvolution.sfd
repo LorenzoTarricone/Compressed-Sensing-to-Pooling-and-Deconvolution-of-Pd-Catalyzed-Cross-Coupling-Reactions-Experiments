@@ -285,10 +285,23 @@ else:
 
 #If there is at least one condition in which the carbine has more than 50% yield, then we should consider this class of Pd-ligands for the follow up screaning
 if matrix_to_use.shape[0] == 15:
-  if np.max(final_array[7,6:]) &gt;= 20:
-    print("Should consider carbine in the analysis")
+  # Choose the plate region to probe based on the "carbene" design variable
+  if carbene_placement == "last":
+    # last row of RIGHT half: row H (index 7), columns 7..12
+    carbene_patch = final_array[7, 6:]
+    carbene_region_desc = "row H, columns 7-12 (right half)"
+  elif carbene_placement == "first":
+    # first row of LEFT half: row A (index 0), columns 1..6
+    carbene_patch = final_array[0, :6]
+    carbene_region_desc = "row A, columns 1-6 (left half)"
   else:
-    print("Can discard Carbines for follow-up plate ")
+    raise ValueError("carbene must be 'first' or 'last'")
+
+  if np.max(carbene_patch) &gt;= 20:
+    print(f"Carbene check [{carbene_region_desc}]: strong signal detected -> consider carbene in the analysis")
+  else:
+    print(f"Carbene check [{carbene_region_desc}]: no strong signal -> can discard carbene for follow-up plate")
+
 elif matrix_to_use.shape[0] == 21:
   #TO CHECK IF DESIGN OF BIG PLATE IS HOW GEORG WANTS
   if np.max(final_array[5,2::3]) &gt;= 20:
@@ -305,7 +318,41 @@ else:
 
 # Reshape the 8x12 plate data into a format that aligns with the pooling matrix experiments.
 # This operation is specific to the plate layout design.
-reshaped_plate = np.concatenate((final_array[:,:6], final_array[:7,6:]), axis=0).T
+# ---- Build the 15x6 stack of mixture rows from the plate (exclude the carbene row) ----
+left_half = final_array[:, :6]  # (8,6) rows A..H
+right_half = final_array[:, 6:]  # (8,6) rows A..H
+
+if carbene_placement == "last":
+  # Carbene sits at RIGHT/H; mixtures use LEFT A..H (8) + RIGHT A..G (7)
+  mix_mat_raw = np.concatenate((left_half, right_half[:7, :]), axis=0)  # (15,6)
+elif carbene_placement == "first":
+  # Carbene sits at LEFT/A; mixtures use LEFT B..H (7) + RIGHT A..H (8)
+  mix_mat_raw = np.concatenate((left_half[1:, :], right_half), axis=0)  # (15,6)
+else:
+  raise ValueError("carbene must be 'first' or 'last'")
+
+# ---- Map those 15 physical rows to canonical mixture numbers 1..15 ----
+# plate_order[k] = mixture number at row k of mix_mat_raw (see the figure)
+if plate_layout == "vertical" and carbene_placement == "last":
+  # 1..8 on the left A..H; 9..15 on the right A..G
+  plate_order = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+elif plate_layout == "horizontal" and carbene_placement == "last":
+  # left odds; right evens (row H on right is carbene -> excluded)
+  plate_order = [1, 3, 5, 7, 9, 11, 13, 15, 2, 4, 6, 8, 10, 12, 14]
+elif plate_layout == "vertical" and carbene_placement == "first":
+  # left B..H -&gt; 1..7; right A..H -&gt; 8..15
+  plate_order = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+elif plate_layout == "horizontal" and carbene_placement == "first":
+  # left B..H -&gt; evens; right A..H -&gt; odds
+  plate_order = [2, 4, 6, 8, 10, 12, 14, 1, 3, 5, 7, 9, 11, 13, 15]
+else:
+  raise ValueError("layout must be 'vertical' or 'horizontal'")
+
+# Invert mapping to get the row permutation that restores canonical 1..15
+plate_order_idx = np.array(plate_order) - 1  # 0-based mixture ids
+mixture_order = np.argsort(plate_order_idx)  # rows for [1,2,...,15]
+mix_mat = mix_mat_raw[mixture_order, :]  # reorder to canonical
+reshaped_plate = mix_mat.T  # (6 conditions x 15 mixtures)
 
 # Create a pandas DataFrame from the reshaped plate data for better visualization and analysis.
 df_reshaped_plate = pd.DataFrame(reshaped_plate)
@@ -663,6 +710,20 @@ if reconstruct_all:
     <AllowedDataType>Float</AllowedDataType>
     <AllowedDataType>Decimal</AllowedDataType>
     <AllowedDataType>Long</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>plate_layout</Name>
+    <Type>Value</Type>
+    <DisplayName>plate_layout</DisplayName>
+    <Description>Physical mixture layout: vertical or horizontal.</Description>
+    <AllowedDataType>String</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>carbene_placement</Name>
+    <Type>Value</Type>
+    <DisplayName>carbene_placement</DisplayName>
+    <Description>Separate carbene position: first (A1-A6) or last (H7-H12).</Description>
+    <AllowedDataType>String</AllowedDataType>
   </Input>
   <Output>
     <Name>chem_cond_df</Name>
