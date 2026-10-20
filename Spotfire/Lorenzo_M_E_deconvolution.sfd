@@ -347,6 +347,8 @@ chem_cond_df = chem_cond_df.iloc[::-1]
 
 
 #use average of the signal from all conditions as it is the thing that seems to work the best for now
+if len(indices_to_keep) == 0:
+  indices_to_keep = list(top_two_indices)
 y_averaged_signal = np.mean(reshaped_plate[indices_to_keep,:], axis=0)
 
 #---------------DEBUG--------------------
