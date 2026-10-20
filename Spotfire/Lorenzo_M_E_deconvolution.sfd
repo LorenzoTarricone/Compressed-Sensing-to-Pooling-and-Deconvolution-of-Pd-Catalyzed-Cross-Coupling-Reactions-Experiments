@@ -386,7 +386,7 @@ def Compressed_Sensing_CVXPY(M, y, n_hit, true_negatives=set([]), epsilon=None, 
         if prob.status in ["optimal", "optimal_inaccurate"]:
             success = True
             print("Scale successful: ", scale)
-            print("Epsilon successful: ", epsilon_try)
+            print("Epsilon successful: ", eps_try)
             break
 
     if not success:
@@ -692,7 +692,6 @@ if reconstruct_all:
     <Description>Dataframe giving the result of the deconvolution (normalized so that maximum score is 100) in the shape of N_conditions X N_catalysts</Description>
   </Output>
   <Description>Deconvolution procedure for the mixed experiments</Description>
-  <ApprovalStamp>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAltRrRzoxskS3yZa25mY7PgAAAAACAAAAAAADZgAAwAAAABAAAACxzcTZO+SLg2UphmLlQdv5AAAAAASAAACgAAAAEAAAADWUrhv3lUlshpmbiFVhJRuIAAAA/Zb7fEOCoNYySSOXjZyBXrYsod1ZuYuEpB8quz1lk7YI8Qs6BYn6JEXtSbXsuRtF3tUGiOXwKc5zUuGbQZp2//5OwoSqQLfY4omZvBm5PA++ums8X1dbAblbACUu4QpwEj3rixebz8gNnL7MD8UmJrfRzwsdYs+vi3EIAoHYS9BWeLNn5uYEhBQAAADMlydpzx1egQKIENAGqSgp1MjTJQ==</ApprovalStamp>
   <AdditionalApprovalStamps />
   <Category>default</Category>
 </ScriptFunctionDefinition>
