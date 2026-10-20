@@ -183,7 +183,7 @@ for inner_list in overall_result:
 print(f"Shape of dataset before dropna(): {data_raw.shape}")
 
 #assuming that all the lines with N.A.s are non-inportant lines where the yield is zero
-df_not_nans = data_raw.dropna()
+df_not_nans = data_raw.dropna().copy()
 
 # --- ADD THESE LINES FOR DEBUGGING ---
 print(f"Shape of dataset after dropna(): {df_not_nans.shape}")
@@ -232,9 +232,12 @@ other_df = pd.DataFrame(np.array(otherstuff_data),
                              columns=["AVG area%", "MIN area%", "MAX area%"])
                              
 other_df.insert(0, 'Timepoint', range(1, max_time+1))
+other_df[['AVG area%', 'MIN area%', 'MAX area%']] = (
+  other_df[['AVG area%', 'MIN area%', 'MAX area%']].fillna(0.0).astype(float)
+)
 
 #Isolate dataframe with just product 
-product_df = df_not_nans[df_not_nans["COMPOUND"] == "Product"]
+product_df = df_not_nans[df_not_nans["COMPOUND"] == "Product"].copy()
 
 
 #Extract names of the solvelt/base
