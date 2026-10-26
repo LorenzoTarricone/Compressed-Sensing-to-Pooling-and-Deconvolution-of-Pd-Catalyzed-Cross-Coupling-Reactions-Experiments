@@ -61,7 +61,9 @@ def main():
     ap.add_argument('--embedding-neutral', help='2D coordinates used by spotfire_2024 and rxn_category=neutral')
     ap.add_argument('--lambdas', default='0.5,1,5,10')
     ap.add_argument('--sigmas-2024', default='50,100,300', help='sigma grid for the spotfire_2024 prior')
-    ap.add_argument('--epsilons', default='', help='extra fixed tolerances to try, e.g. "1,5,10"')
+    ap.add_argument('--epsilons', default='',
+                    help='extra tolerances to try: fixed values, or fractions of ||y|| ending in y, e.g. "1,10,0.5y"')
+    ap.add_argument('--extra-layouts', default='', help='further layouts to try, e.g. "horizontal/first,vertical/last"')
     ap.add_argument('--alias', default='', help='use another catalyst\'s coordinates, e.g. rac-Antphos=dppdtbpf')
     ap.add_argument('--also-as-run-layout', action='store_true',
                     help='also try vertical/last, the only layout supported before November 2025')
@@ -84,8 +86,16 @@ def main():
     layouts = [(args.layout, args.carbene)]
     if args.also_as_run_layout and layouts[0] != ('vertical', 'last'):
         layouts.append(('vertical', 'last'))
+    for item in filter(None, args.extra_layouts.split(',')):
+        if tuple(item.split('/')) not in layouts:
+            layouts.append(tuple(item.split('/')))
     lambdas = [float(v) for v in args.lambdas.split(',')]
-    extra_eps = [float(v) for v in args.epsilons.split(',') if v]
+    extra_eps = [v for v in args.epsilons.split(',') if v]
+
+    def tolerance(eps, signal):
+        if eps is None or not eps.endswith('y'):
+            return None if eps is None else float(eps)
+        return float(eps[:-1]) * np.linalg.norm(signal)
 
     results = []
     for pipeline in args.pipelines.split(','):
@@ -104,12 +114,12 @@ def main():
                 D = prior_matrix(pipeline, cats, embeddings[kind], kind, sigma)
             y, keep = averaged_signal(readings)
             candidates = {}
-            scores, used = reconstruct(y, pipeline, D, lam, eps)
+            scores, used = reconstruct(y, pipeline, D, lam, tolerance(eps, y))
             if scores is not None:
                 candidates['aggregate'] = (scores, used)
             per_cond = []
             for c in range(readings.shape[0]):
-                s, e = reconstruct(readings[c], pipeline, D, lam, eps)
+                s, e = reconstruct(readings[c], pipeline, D, lam, tolerance(eps, readings[c]))
                 per_cond.append(s)
                 if s is not None:
                     candidates[f'condition {c + 1}'] = (s, e)

@@ -21,8 +21,11 @@ All versions take the mean (or starting-material-weighted mean) over time points
 |---|---|---|
 | 425 (barbituric acid) | all 12 values in main-text Figure 3 | reproduced by `notebook_2024` within the rounding of the figure (largest difference 0.04) |
 | 424 (Meldrum's acid) | all 12 values in main-text Figure 3 | same ordering except cPhos and the phosphatrane (21.9 vs 21.6), but values differ by up to 9.5. No pipeline, prior or tolerance tested reproduces them. The 425 run used a pre-processed export (`AREA_TOTAL_REDUCED_corrected`); the corresponding 424 file is probably needed |
-| 424 | SI section S2.9 (frozen reanalysis) | reproduced by `spotfire_current` with summed Product peaks (largest difference 0.005; accepted ε = 1.7813, as listed in S2.9) |
-| 334, 810, 821 | main text and Figures 4, 6, 7 | not tested: the pooled-plate exports are not available locally |
+| All five | SI section S2.9 (frozen reanalysis) | reproduced by `Spotfire/Lorenzo_M_E_deconvolution.sfd` on this branch with `product_aggregation = "sum"`, prior off, campaign layouts and catalyst lists: all 35 scores per campaign within 0.005, accepted ε identical to S2.9 |
+| 821 | Georg's Spotfire run of 20 October | reproduced exactly by the same function with `product_aggregation = "last"` |
+| 334 | Figure 4, all 35 values | from the processed 6 × 15 table archived at the time: `spotfire_aug2025` with the Suzuki epoch-10 embedding, λ = 10, ε = 0.5 ‖y‖ gives all 35 within 0.17. From today's raw export no setting comes within 6: the export differs from the archived table by up to 25 to 36 area% per cell, and 132 of 190 Product samples carry more than one Product peak |
+| 821 | Figure 6, five values | closest: single-condition reconstruction in dioxane / aq. KOH (condition 5), last-row Product peaks, adaptive ε; largest difference 4.1. The prior has almost no effect on this condition |
+| 810 | Figure 7, three values | closest: aggregate, no prior, summed peaks, fixed ε = 8; largest difference 0.8. Three values do not identify the settings |
 
 ## Running a search
 
@@ -31,9 +34,11 @@ python reproduce.py --export 821_plate1.csv --plate 1 \
     --cats ../Data/cats_names_35.csv --layout horizontal --carbene first \
     --embedding-sm M_E_embeddings_sm.csv --embedding-bh M_E_embeddings_bh.csv \
     --embedding-neutral M_E_embeddings_neutral.csv --alias rac-Antphos=dppdtbpf \
-    --also-as-run-layout --epsilons "1,5,10" \
+    --also-as-run-layout --epsilons "1,5,10,0.5y" \
     --targets "dppp=99.2,BINAP=89.3,Jackie CPhos=75.0,CPhos=69.8,dtbpf=49.3"
 ```
+
+The raw files used for the table above are the pooled-plate exports supplied by Marius Lutz on 26 October 2026 (`paper-catmix-raw-plates/`, with SHA-256 manifest). Pass only the columns the Spotfire function maps (`ELN_ID`, `SAMPLE_ID`, `PLATENUMBER`, `COMPOUND`, `SAMPLENUMBER`, `AREA_TOTAL_REDUCED`, `ColumnLabel`, `PLATEROW`, `PLATECOLUMN`) when running the `.sfd` script outside Spotfire: it calls `dropna()` on every column, and the full export has gaps in every row.
 
 For every pipeline the search tries summed and last-row Product peaks, starting-material weights on and off, the chemical prior off and on (each embedding supplied, λ in 0.5, 1, 5, 10), and any extra fixed tolerances given. It scores the aggregate signal and each single solvent/base condition, both as 7x and normalised to a plate maximum of 100 (the `df_complete_data` output). Results are sorted by the largest absolute difference from the targets.
 
