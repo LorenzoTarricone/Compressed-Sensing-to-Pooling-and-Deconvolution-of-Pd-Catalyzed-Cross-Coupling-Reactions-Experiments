@@ -28,7 +28,8 @@ This repository demonstrates how to use combinatorial designs and compressed sen
 |   └── Embeddings_to_D_matrix.ipynb          # Script that allows to pass directly from some embeddings of catalysts to the matrix D to use in the Lasso loss
 │ 
 ├── Data
-│   ├── cats_names_35.csv                     # List of 35 catalysts we use for our standard plate design
+│   ├── cats_names_35.csv                     # List of 35 catalysts we use for our standard plate design (library from 2025, rac-Antphos at position 28; campaigns 810 and 821)
+│   ├── cats_names_35_dppdtbpf.csv            # Earlier library with (dppdtbpf)PdCl2 at position 28 (campaigns 334, 424 and 425); all other positions identical
 │   └── embedding_df.csv                      # Dataframe containing the embedding coordinates (2D) that we obtain using our empirical-hand-made prior
 │
 ├── Spotfire
