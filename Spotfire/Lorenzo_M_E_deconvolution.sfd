@@ -263,9 +263,17 @@ product_df['PLATEROW'] = product_df['PLATEROW'].map(mapping)
 #initialize array for storing resutls
 final_array = np.zeros((8, 12, max_time))
 
+#a sample can contain more than one peak tagged as Product: either sum their areas or keep the last row of the export (historical behaviour)
+if product_aggregation is None:
+  product_aggregation = "sum"
+if product_aggregation == "sum":
+  product_df = product_df.groupby(['PLATEROW', 'PLATECOLUMN', 'SAMPLENUMBER'], as_index=False)['AREA_TOTAL_REDUCED'].sum()
+elif product_aggregation != "last":
+  raise ValueError("product_aggregation must be 'sum' or 'last'")
+
 #fill the array with the data
 for index, row in product_df.iterrows():
-  final_array[row['PLATEROW']-1, row['PLATECOLUMN']-1 ,row['SAMPLENUMBER']-1] = row['AREA_TOTAL_REDUCED']
+  final_array[int(row['PLATEROW'])-1, int(row['PLATECOLUMN'])-1, int(row['SAMPLENUMBER'])-1] = row['AREA_TOTAL_REDUCED']
 
 #time correction: for each condition and each mixture combination, if there is another timepoint with a value different than zero, it uses that.
 #This is due to the fact that sometimes we see some yield that at a following timestep disappears, which is not possible of course and is an error of the measuring robot we need to correct for.
@@ -723,6 +731,14 @@ if reconstruct_all:
     <Type>Value</Type>
     <DisplayName>carbene_placement</DisplayName>
     <Description>Separate carbene position: first (A1-A6) or last (H7-H12).</Description>
+    <AllowedDataType>String</AllowedDataType>
+  </Input>
+  <Input>
+    <Name>product_aggregation</Name>
+    <Type>Value</Type>
+    <DisplayName>product_aggregation</DisplayName>
+    <Description>How to combine several peaks tagged as Product in one sample: sum (default) or last (row order of the export, as in versions before October 2026).</Description>
+    <IsOptional>true</IsOptional>
     <AllowedDataType>String</AllowedDataType>
   </Input>
   <Output>
