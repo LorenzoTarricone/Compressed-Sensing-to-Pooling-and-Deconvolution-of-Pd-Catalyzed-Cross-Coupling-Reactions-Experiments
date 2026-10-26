@@ -394,7 +394,7 @@ max_array = np.max(reshaped_plate, axis = 1) #Maximum yield
 # Get the indices that would sort the conditions by their sum of yields.
 sorted_args = np.argsort(sum_array)
 # Create a summary DataFrame.
-chem_cond_df = pd.DataFrame([[chem_dict[i] for i in sorted_args], np.sort(avg_array), np.sort(min_array), np.sort(max_array)]).T
+chem_cond_df = pd.DataFrame([[chem_dict[i] for i in sorted_args], avg_array[sorted_args], min_array[sorted_args], max_array[sorted_args]]).T
 #give title to column
 chem_cond_df.columns = ['Chemical Condition', 'AVG area%', 'MIN area%', 'MAX area%']
 #invert the order of the rows
