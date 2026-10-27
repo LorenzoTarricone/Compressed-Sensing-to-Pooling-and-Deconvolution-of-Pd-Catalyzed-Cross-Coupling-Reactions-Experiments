@@ -11,7 +11,7 @@ pip install -r reproduction/paper/requirements.txt
 python reproduction/paper/run_all.py
 ```
 
-The run takes about RUNTIME_TOTAL on a laptop, most of it in the recovery simulations; `--skip-simulations` leaves those out (about RUNTIME_SHORT). It ends with
+The run takes about a minute and a half on a laptop, most of it in the recovery simulations; `--skip-simulations` leaves those out (about 20 seconds). It ends with
 
 ```
 All outputs agree with the values reported in the paper.
