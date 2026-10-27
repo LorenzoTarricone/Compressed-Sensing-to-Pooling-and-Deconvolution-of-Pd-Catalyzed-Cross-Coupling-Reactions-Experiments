@@ -1,6 +1,16 @@
 # Compressed-Sensing-to-Pooling-and-Deconvolution-of-Pd-Catalyzed-Cross-Coupling-Reactions-Experiments
 This repository contains Python implementations of the deconvolution algorithms presented in the paper titled "Compressed Sensing Approach to Pooling and Deconvolution of Pd-Catalysed Cross-Coupling Reactions." An updated draft of the paper can be found [here](https://drive.google.com/file/d/10rbDDRqr5-LMHrAWEbvfnymOKy3wxHzL/view?usp=drive_link). The code uses compressed sensing techniques and group testing principles to efficiently screen catalysts in high-throughput experiments. Additionally, this repository includes a guide on integrating these methods as TIBCO Spotfire data functions.
 
+## Reproducing the paper
+All scores, statistics and SI figures of the revised paper can be regenerated from the screening data in [`Data/paper`](Data/paper):
+
+```bash
+pip install -r reproduction/paper/requirements.txt
+python reproduction/paper/run_all.py
+```
+
+See [`reproduction/README.md`](reproduction/README.md) for what each step does, where each result in the paper comes from and the settings used. The release used for the paper is tagged `v1.0`.
+
 ## Table of Contents
 - [Overview](#overview)
 - [Repository Structure](#repository-structure)
@@ -36,6 +46,12 @@ This repository demonstrates how to use combinatorial designs and compressed sen
 │   ├── Mixing_experiments_user_guide.md       # Detailed guide on integrating with Spotfire our method. 
 │   ├── Lorenzo_M_E_deconvolution.sfd         # Spotfire data function file to import to implement the deconvolution algorithm
 │   └── Lorenzo_M_E_pooling.sfd         # Spotfire data function file to import to implement the pooling algorithm (a.k.a. designing the experiment)
+│
+├── Data/paper                                # Screening data of the five campaigns in the paper (see its README)
+├── reproduction
+│   ├── README.md                             # How to reproduce every number in the paper
+│   ├── paper/                                # Scripts, expected outputs and pinned requirements for the paper
+│   └── historical/                           # Re-implementations of the earlier code versions used for the first submission
 │
 ├── requirements.txt                          # Required Python packages
 └── README.md                                 # This README file

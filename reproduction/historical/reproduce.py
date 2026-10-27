@@ -3,7 +3,7 @@
 Example (campaign 821, late-stage Suzuki):
 
     python reproduce.py --export 821_plate1.csv --plate 1 \
-        --cats ../Data/cats_names_35.csv --layout horizontal --carbene first \
+        --cats ../../Data/cats_names_35.csv --layout horizontal --carbene first \
         --embedding-sm M_E_embeddings_sm.csv --alias rac-Antphos=dppdtbpf \
         --targets "dppp=99.2,BINAP=89.3,Jackie CPhos=75.0,CPhos=69.8,dtbpf=49.3"
 

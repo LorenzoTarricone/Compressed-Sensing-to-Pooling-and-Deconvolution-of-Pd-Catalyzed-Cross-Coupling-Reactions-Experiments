@@ -1,0 +1,451 @@
+campaign,condition_index,condition,mixture,members,reading
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,0.0
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,0.27178918977857
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.0
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,0.15010185217718378
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.1975526121309943
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,0.07692677457137566
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.11329305555663499
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,0.7477941826184527
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,0.5045217670307113
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,0.35171946257502024
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,0.13130252333079098
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,0.2092547696858908
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,0.0
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.6663249348986329
+334,1,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,0.26493856159320667
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,52.04771482251069
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,9.285828367131485
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.15014700420370605
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,0.10792475743200933
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.9048812862083023
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,0.843172302719462
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.6572665546517666
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,19.200988072428256
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,22.144980244308712
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,24.411773054357052
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,12.401031204911058
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,32.02118028296246
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,37.68276929242731
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,22.958973347769167
+334,2,CPME (10vol)/ NaOtBu (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,47.48840469391686
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,53.52589576770163
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,7.448024946661915
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.49940265580385024
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,0.323828002348015
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.6495225790343414
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,1.2229615545625159
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.7874977879397056
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,19.08171186651291
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,25.14200713243327
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,31.094909706674727
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,4.8517715361913805
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,32.46806521389884
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,34.61819237666175
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,21.345709334064374
+334,3,PhMe (10vol)/ NaOtBu (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,42.03047645951753
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,0.0
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,0.11702223243415186
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.0
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,0.04294979232559554
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.0
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,0.090014065505864
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.0
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,0.0
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,0.0
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,0.5643611923483266
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,0.2921974420330202
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,0.31477959885486895
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,0.6636144580520356
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.1556848676237163
+334,4,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,0.0
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,5.932153577624152
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,0.293110212882095
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.10748354080533568
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,0.12959363445157399
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.20476068667230365
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,0.29355380830773165
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.0
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,0.3358397164693363
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,0.1917963435401273
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,2.5514407817937252
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,1.2202617365215176
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,2.6301587258666412
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,3.9442567897337923
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.5096029008229883
+334,5,PhMe (10vol)/ TMSOK (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,0.44600622159310477
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,13.614477924267518
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,4.126514960715234
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.0
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,4.116415222501487
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.0
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,0.5113832896686806
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,24.874805748978538
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,10.298115076537357
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,22.175442707310417
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,30.175440279036934
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,6.428596003832114
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,37.27078781289866
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,21.786146234235595
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,9.197335835958985
+334,6,CPME (10vol)/ KOtBu (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,42.42364089469877
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,2.7268494710254227
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,0.5622756253380861
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.46447386840898863
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,63.33824020506076
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,58.500030184454445
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,26.44957107579596
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,15.333900473812843
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,58.931236858700714
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,33.86570988573839
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,42.31870857634597
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,2.165954810222135
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,26.908601770895597
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,2.2129131007626355
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.9422973928935843
+424,1,NEt3 (3.0 eq)/ DMI (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,33.009868793681306
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,21.835778918138384
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,5.0529923208125
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,3.384483946974136
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,71.9276147164843
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,66.77818810942887
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,57.56023693434261
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,63.82613716790359
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,76.9726465091457
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,53.50325902470777
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,65.37383704894883
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,8.792523252687472
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,55.89264534829557
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,14.321828918058063
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,2.0829641942034627
+424,2,K3PO4 (3.0 eq)/ THF (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,52.03635340388276
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,34.60731966568065
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,9.443814534175797
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,4.811163011138358
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,70.34816530916447
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,61.95776428939817
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,66.91329674580672
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,66.9401743115796
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,78.98987813132594
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,65.2078936350091
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,72.77389251536853
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,5.501065435717797
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,55.13786551683323
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,19.456709445811455
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,4.502836942469461
+424,3,K2CO3 (3.0 eq)/ THF (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,58.2471519673381
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,30.987617605020734
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,31.765994229939217
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,20.802558406022964
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,69.87997343315901
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,45.314068194083546
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,55.32154377223261
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,68.34132364583077
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,55.77900830315462
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,42.973793825570155
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,56.91772584249881
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,18.709196867222932
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,52.14719459776164
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,19.367500026630417
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,4.187749807505738
+424,4,Cs2CO3 (3.0 eq)/ anisole (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,57.599245516404935
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,17.02767456142491
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,2.067804075359338
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,2.2189290794900636
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,71.05195990808278
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,60.65657995158242
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,61.12962453910375
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,37.247350046519244
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,80.54230913533756
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,48.28309580719039
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,59.70890375675933
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,2.6611299649517504
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,39.68321072076013
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,4.509681553149148
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,1.1942040696309133
+424,5,NEt3 (3.0 eq)/ anisole (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,50.75598704870085
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,40.045552124891756
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,8.479415205199059
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,10.098609697990415
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,62.33530314761373
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,68.45444494376252
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,72.4253145398969
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,76.386131353098
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,79.34885814953506
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,68.9292565000289
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,51.648997871132885
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,10.516496797918512
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,61.96067719934196
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,21.202493697217594
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,5.642513280959205
+424,6,K2CO3 (3.0 eq)/ MeTHF (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,57.10541543816159
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,2.551669742184675
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,0.603060286432564
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.247778526165302
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,67.5486765062235
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,70.1466009376384
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,26.86785821392025
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,17.6550423950808
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,70.40504519315076
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,39.4384653553487
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,53.80587872199255
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,2.266435409190715
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,31.25498196150115
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,3.2931002000082
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.796578885342175
+425,1,NEt3 (3.0 eq)/ DMI (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,40.43248901721245
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,2.95841057045662
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,0.7332085960740345
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.285942285910547
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,77.30643155897721
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,76.45222360702775
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,28.482197221123954
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,3.384531484320815
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,70.25429060969395
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,61.544627370078004
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,69.8186233086109
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,3.24088069780986
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,60.80595982103115
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,2.953270119514311
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,1.5148808228926751
+425,2,DBU (3.0 eq)/ DMSO (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,64.6563596338911
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,21.972164321674
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,4.750343744983235
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,3.0276575640606103
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,74.73314490284861
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,76.64974718578014
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,52.054212025665
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,35.23079282848505
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,71.933955683078
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,65.73134403434675
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,77.81148323968075
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,4.225638284610374
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,60.56474842804545
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,7.80810406078805
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,2.73812041691808
+425,3,NEt3 (3.0 eq)/ DMSO (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,71.3254492864844
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,5.173515275749255
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,0.6503117911355485
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.951538733000799
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,14.312762096031651
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,34.194891479236
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,23.1975283984859
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,10.28037740495182
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,32.75895258523535
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,11.230565900411566
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,26.6606787052308
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,1.57814430765658
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,10.09466516364141
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,2.98024628627687
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,1.0555712658560255
+425,4,DIPEA (3.0 eq)/ EtOH (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,14.280777639774854
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,1.6740225821300454
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,0.914287802350299
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.410094622181793
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,29.716381225613652
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,36.642751890975504
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,16.2814008704917
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,11.75337121849439
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,36.902063472387454
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,7.517129554451405
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,22.80573993609145
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,2.084631728265595
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,5.39702940123487
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,1.5733306539267349
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.27468754543002
+425,5,NMM (3.0 eq)/ EtOH (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,18.170792979684002
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,5.16639058807056
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; dppdtbpf; PCy_3,1.61551084171175
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.556777567317095
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,10.077476475414414
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,25.39247801668245
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,19.66647791479693
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,9.230979502463246
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,30.753083993891998
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; dppdtbpf; XPhos,7.21344158755791
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,28.634144796246048
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; dppdtbpf; dtbpf,0.3088754447369125
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,14.78616575288015
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,2.31071258331733
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.0
+425,6,NMM (3.0 eq)/ ethylene glycol (10vol)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,14.895490975470551
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,1.4109050599478519
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,1.049441467323554
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.47340021199663335
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,1.7382987429019547
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.2492501134850133
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,1.0836952842543373
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.7700940773890165
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,2.931208442927167
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,0.22742778547154416
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,0.2837689969014459
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,0.6100862670686166
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,0.9988558595922129
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,0.3424878042559034
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,2.3401793561866184
+810,1,tAmOH (10vol)/ K3PO4 (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,0.5839749260534728
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,0.0
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,0.0
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.0
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,2.462609034405604
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.9441304587908231
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,0.31967240438790534
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.0
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,0.3285194905269277
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,1.7301407013451495
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,1.8142757765486346
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,0.0
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,1.3695543313491545
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,0.0
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.42255237277343793
+810,2,DMAc (10vol)/ K3PO4 (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,0.0
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,9.941353989853708
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,8.170904663837682
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,4.327569322621322
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,11.161863128778418
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,4.2772309688249885
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,14.082962856128042
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,11.793469016312876
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,14.99306351369381
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,6.252561532749896
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,4.000546210251904
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,0.0
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,2.9230906777779095
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,4.275757238888395
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,8.645359589714698
+810,3,Dioxane (10vol)/ LiOtBu (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,0.0
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,6.393673577983242
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,9.660569908535741
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,9.928690083372093
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,6.670883170718287
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,1.446676262209238
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,8.314950320028192
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,8.190041013414337
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,8.816373214261999
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,4.495420501434474
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,4.279187160912974
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,8.712307250826267
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,2.7860494398234286
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,5.175507339166012
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,0.9002166204678914
+810,4,DMAc (10vol)/ LiOtBu (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,8.036119161175527
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,0.0
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,0.2365608220827135
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.1542943907712558
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,0.6764877162822346
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.0
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,0.5728122025582347
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.1619840580764176
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,0.40391931684693866
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,0.0
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,0.1411726264369953
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,0.0
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,0.0
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,0.0
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,1.8067968294148575
+810,5,Dioxane (10vol)/ K2CO3 (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,0.7642817667866838
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,0.0
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,0.683548238409977
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,0.2136135435621199
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,3.2901173803822044
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,0.0
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,0.25523324956340143
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,0.14916569564018417
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,6.14646059908862
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,0.0
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,0.0
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,0.24907393284674062
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,0.17535469742418103
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,0.3280780884801728
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,2.638720745882606
+810,6,tAmOH (10vol)/ K2CO3 (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,0.5568026247587142
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,52.185557143523944
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,20.27359603494626
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,42.44222083977795
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,22.940225225679796
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,36.65990369887967
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,29.445051687190144
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,27.487188051077492
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,7.779060712675999
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,40.574083201619416
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,20.578402015349837
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,40.10220569598759
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,32.03039292263324
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,64.24774930876586
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,54.15484050268697
+821,1,"Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,62.1218527760531
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,45.823518528177715
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,41.25381559345876
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,58.15828129180859
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,20.873806383082638
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,32.98654792443729
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,28.86800900345786
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,32.58945037177666
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,6.276523303487405
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,50.23125210343645
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,27.71582774168921
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,54.19171670481793
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,40.10820412561024
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,65.85842686394045
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,66.58963102529874
+821,2,"tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,47.981692063002306
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,48.73697184144749
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,32.709144579718924
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,46.88065498708209
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,26.41017211683463
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,43.76220566107317
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,37.10827315741479
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,32.91219508498899
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,9.073288136341047
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,44.63841556234606
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,24.98366321447518
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,56.3269725639625
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,45.77575323502596
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,71.36084505670932
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,64.46956916624185
+821,3,"Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,62.760157128961836
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,36.66528774670933
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,49.14881610538534
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,61.66174318665734
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,17.60908724713972
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,49.37038232324004
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,40.85263946186782
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,44.34591324235852
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,16.880647525357386
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,55.25777147662474
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,43.736028248749946
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,40.93871896045832
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,68.7807685386523
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,67.87404436120632
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,67.79907234502623
+821,4,"tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,42.89764670844238
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,43.95588460166517
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,56.5140071537128
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,75.1228120449274
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,31.125908397724494
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,63.11489788334795
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,49.536592401769724
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,59.362084651784976
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,19.943598004937797
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,56.68226400565858
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,51.620392865212025
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,69.03335618385779
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,71.52156908660803
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,70.94950266091182
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,71.72533558111944
+821,5,"Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,55.561342327532486
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1,meCgPPh; VPhos; XantPhos; Jackie CPhos; GPhos; cBridP; XPhos,18.56889087726083
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,2,TrixiePhos; VPhos; DPEPhos; Mordal-Phos; BINAP; rac-Antphos; PCy_3,9.892742259497961
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,3,P(oTol)_3; PPh_3; DPEPhos; dppp; Jackie Phos; QPhos; XPhos,30.537928431396892
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,4,RuPhos; PPh_3; AlPhos; Mordal-Phos; dppf; cBridP; dtbpf,17.98191959608112
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,5,RockPhos; VPhos; AlPhos; Me3(OMe)-tBuXPhos; Jackie Phos; BippyPhos; JosiPhosSL J009-1,8.804964761472165
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,6,meCgPPh; CPhos; DPEPhos; Me3(OMe)-tBuXPhos; dppf; cataCXlum A; tBuXPhos,7.579906062079447
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,7,TrixiePhos; PPh_3; XantPhos; Amphos; P(tBu)_3; BippyPhos; tBuXPhos,6.983714158972649
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,8,P(oTol)_3; tBuBrettPhos; AlPhos; Amphos; GPhos; cataCXlum A; PCy_3,6.943277502296567
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,9,RuPhos; tBuBrettPhos; Triisobutyl-Phosphatrane; Me3(OMe)-tBuXPhos; P(tBu)_3; rac-Antphos; XPhos,21.205696154495545
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,10,RockPhos; CyJohnPhos; Triisobutyl-Phosphatrane; Mordal-Phos; GPhos; QPhos; tBuXPhos,1.2185966155728276
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,11,meCgPPh; CyJohnPhos; SPhos; Amphos; Jackie Phos; rac-Antphos; dtbpf,6.398692611062798
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,12,TrixiePhos; tBuBrettPhos; SPhos; Jackie CPhos; dppf; QPhos; JosiPhosSL J009-1,3.95666250112624
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,13,P(oTol)_3; CPhos; Triisobutyl-Phosphatrane; Jackie CPhos; BINAP; BippyPhos; dtbpf,34.67783994685955
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,14,RuPhos; CyJohnPhos; XantPhos; dppp; BINAP; cataCXlum A; JosiPhosSL J009-1,18.27778151499239
+821,6,tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,15,RockPhos; CPhos; SPhos; dppp; P(tBu)_3; cBridP; PCy_3,24.556885360136015

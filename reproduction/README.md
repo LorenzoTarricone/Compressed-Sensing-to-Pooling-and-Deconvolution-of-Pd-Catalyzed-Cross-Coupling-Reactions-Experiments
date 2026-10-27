@@ -1,53 +1,74 @@
-# Reproducing historical deconvolution scores
+# Reproducing the paper
 
-The deconvolution code changed several times between the first campaigns (2024) and the current Spotfire function. Scores reported for different campaigns were produced by different versions, so no single setting of the current function reproduces all of them. This folder re-implements each version so that a reported score can be traced to the code and settings that produced it.
+Every deconvolution score, statistic and SI figure in the revised paper *Accelerated Pd-catalysed cross-coupling optimisation with compressed sensing* can be regenerated from the data in [`Data/paper`](../Data/paper) with the scripts in [`reproduction/paper`](paper). The release used for the paper is tagged **`v1.0`**.
 
-Plate exports are not part of this repository. Pass the path to a Spotfire export on the command line.
+## Quick start
 
-## Versions
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r reproduction/paper/requirements.txt
+python reproduction/paper/run_all.py
+```
 
-| Pipeline | Source | Tolerance (aggregate solve) | Sign constraint | Chemical prior |
-|---|---|---|---|---|
-| `notebook_2024` | `Python Notebooks/3_0_Algorithm.ipynb` (Sept 2024) | fixed, 0.1 | none | none |
-| `spotfire_2024` | `.sfd` at `6fc2394` (Sept 2024) | fixed, 0.1 | none | optional: hand-made 2D coordinates, integer truncated, penalty λ‖Dx‖₂ |
-| `spotfire_aug2025` | `.sfd` at `de9ec4f` (28 Aug 2025) | fixed, 10 (the `epsilon` input is only passed to the per-condition reconstruction) | x ≥ 0 | optional: α = 5, σ = √3 (bh, sm) or 300 (neutral), penalty λ‖Dx‖₁ |
-| `spotfire_current` | `.sfd` from `b2e985f` | 0.01‖y‖₂ × 1, 2, 5, 10, 20, 50, 100, 200, first feasible | x ≥ 0 | as `spotfire_aug2025` |
+The run takes about RUNTIME_TOTAL on a laptop, most of it in the recovery simulations; `--skip-simulations` leaves those out (about RUNTIME_SHORT). It ends with
 
-All versions take the mean (or starting-material-weighted mean) over time points, apply the zero carry-forward correction, keep conditions with more than 6 non-zero pooled readings and average them. Before October 2026 every version kept only the last row of the export when a sample had several peaks tagged as Product. Every `.sfd` committed here before October 2026 assumes the vertical layout with the carbene in H7 to H12; the horizontal and carbene-first mappings first appear in `SpotfireProcessing_new.ipynb` (November 2025).
+```
+All outputs agree with the values reported in the paper.
+```
 
-## What has been checked with the exports available locally
+or with a list of the outputs that differ and by how much. Outputs are written to `reproduction/paper/output` (or to the folder named in the `CATMIX_OUTPUT` environment variable); the values reported in the paper are in `reproduction/paper/expected`.
 
-| Campaign | Reported scores | Result |
+## The steps
+
+| Script | What it does | Writes |
 |---|---|---|
-| 425 (barbituric acid) | all 12 values in main-text Figure 3 | reproduced by `notebook_2024` within the rounding of the figure (largest difference 0.04) |
-| 424 (Meldrum's acid) | all 12 values in main-text Figure 3 | same ordering except cPhos and the phosphatrane (21.9 vs 21.6), but values differ by up to 9.5. No pipeline, prior or tolerance tested reproduces them. The 425 run used a pre-processed export (`AREA_TOTAL_REDUCED_corrected`); the corresponding 424 file is probably needed |
-| All five | SI section S2.9 (frozen reanalysis) | reproduced by `Spotfire/Lorenzo_M_E_deconvolution.sfd` on this branch with `product_aggregation = "sum"`, prior off, campaign layouts and catalyst lists: all 35 scores per campaign within 0.005, accepted ε identical to S2.9 |
-| 821 | Georg's Spotfire run of 20 October | reproduced exactly by the same function with `product_aggregation = "last"` |
-| 334 | Figure 4, all 35 values | from the processed 6 × 15 table archived at the time: `spotfire_aug2025` with the Suzuki epoch-10 embedding, λ = 10, ε = 0.5 ‖y‖ gives all 35 within 0.17. From today's raw export no setting comes within 6: the export differs from the archived table by up to 25 to 36 area% per cell, and 132 of 190 Product samples carry more than one Product peak |
-| 821 | Figure 6, five values | closest: single-condition reconstruction in dioxane / aq. KOH (condition 5), last-row Product peaks, adaptive ε; largest difference 4.1. The prior has almost no effect on this condition |
-| 810 | Figure 7, three values | closest: aggregate, no prior, summed peaks, fixed ε = 8; largest difference 0.8. Three values do not identify the settings |
+| `scores.py` | Runs the Spotfire data function of this repository (`Spotfire/Lorenzo_M_E_deconvolution.sfd`) on the five pooled plates. The script embedded in the `.sfd` file is executed as it is, so the scores are those Spotfire gives for the same inputs. | `scores_aggregate.csv`, `scores_by_condition.csv`, `pooled_readings.csv`, `plates_time_collapsed.csv`, `table_scores_rows.tex`, `run_manifest.json` |
+| `reference_set.py` | Builds the single-catalyst reference set of the Buchwald--Hartwig amination (43 precatalysts x 8 solvent/base combinations). | `reference_334.csv` |
+| `si_statistics.py` | Condition filter, additivity test, scale of the score, library-wide benchmark, rank stability and validation subsets. | `si_statistics.json`, `additivity_table.csv` |
+| `simulations.py` | Recovery simulations on synthetic plates. | `simulation.csv` |
+| `titration.py` | XantPhos titration. | `titration.csv` |
+| `figures.py` | SI figures and main-text Figure 5. | `figures/*.png` |
+| `check.py` | Checks the input hashes and compares every output with `expected/`. | |
 
-## Running a search
+## Where each result in the paper comes from
 
-```
-python reproduce.py --export 821_plate1.csv --plate 1 \
-    --cats ../Data/cats_names_35.csv --layout horizontal --carbene first \
-    --embedding-sm M_E_embeddings_sm.csv --embedding-bh M_E_embeddings_bh.csv \
-    --embedding-neutral M_E_embeddings_neutral.csv --alias rac-Antphos=dppdtbpf \
-    --also-as-run-layout --epsilons "1,5,10,0.5y" \
-    --targets "dppp=99.2,BINAP=89.3,Jackie CPhos=75.0,CPhos=69.8,dtbpf=49.3"
-```
+| In the paper | Output |
+|---|---|
+| Scores and ranks in main-text Figures 2C, 3, 4, 6 and 7, in the text and in SI S5; complete score table of SI S2.9 | `scores_aggregate.csv` (`table_scores_rows.tex` is the LaTeX body of the S2.9 table) |
+| Pooled readings of Figure 2B and 2C | `plates_time_collapsed.csv`, `pooled_readings.csv` |
+| Accepted tolerance, retained conditions, time weights and input hashes (SI S2.9) | `run_manifest.json` |
+| Condition filter (SI S1.3) | `si_statistics.json`: `S1.3 nonzero pools per condition`, `S1.3 filter sweep` |
+| Additivity test, its table and figure (SI S2.2; main text) | `si_statistics.json`: `S2.2 additivity`; `additivity_table.csv`; `figures/SI_signal_model.png` |
+| XantPhos titration (SI S2.2) | `titration.csv`; `figures/SI_dilution.png` |
+| Scale of the score and the conservation identity (SI S2.4) | `si_statistics.json`: `S2.4 scale` |
+| Library-wide benchmark, its table (SI S2.5) and main-text Figure 5 | `si_statistics.json`: `S2.5 benchmark`; `figures/SI_benchmark.png` |
+| Rank stability (SI S2.6) | `si_statistics.json`: `S2.6 rank stability (400 resamples)`; `figures/SI_rank_stability.png` |
+| Recovery simulations (SI S2.6) | `simulation.csv`; `figures/SI_simulation.png` |
+| Validation subsets (SI S2.9) | `si_statistics.json`: `validation subsets` |
 
-The raw files used for the table above are the pooled-plate exports supplied by Marius Lutz on 26 October 2026 (`paper-catmix-raw-plates/`, with SHA-256 manifest). Pass only the columns the Spotfire function maps (`ELN_ID`, `SAMPLE_ID`, `PLATENUMBER`, `COMPOUND`, `SAMPLENUMBER`, `AREA_TOTAL_REDUCED`, `ColumnLabel`, `PLATEROW`, `PLATECOLUMN`) when running the `.sfd` script outside Spotfire: it calls `dropna()` on every column, and the full export has gaps in every row.
+## Settings
 
-For every pipeline the search tries summed and last-row Product peaks, starting-material weights on and off, the chemical prior off and on (each embedding supplied, λ in 0.5, 1, 5, 10), and any extra fixed tolerances given. It scores the aggregate signal and each single solvent/base condition, both as 7x and normalised to a plate maximum of 100 (the `df_complete_data` output). Results are sorted by the largest absolute difference from the targets.
+The same settings are used for every campaign:
 
-Points specific to the 2025 campaigns:
+- all peaks classified as Product in a sample and sampling point are summed;
+- zero carry-forward time correction: a reading that drops to exactly zero after a non-zero reading is replaced by the last non-zero one;
+- time points are combined with weights proportional to the number of wells in which the limiting starting material is detected (uniform when it is detected in none);
+- a solvent/base combination is kept if more than 6 of its 15 pooled readings are positive (if none is kept, the two with the largest total are used; in the five campaigns all six were kept);
+- the kept combinations are averaged with equal weight;
+- reconstruction: minimise the L1 norm of x subject to ||y - Ax||_2 <= epsilon and x >= 0, with epsilon = 0.01 ||y||_2 x 1, 2, 5, 10, 20, 50, 100, 200, the first feasible solve being accepted;
+- score = 7x; scores closer than 1e-4 share a rank;
+- no chemical-similarity penalty.
 
-- The local embedding files have no row for rac-Antphos, so any prior run with rac-Antphos in the catalyst list would have failed unless a row was added. `--alias rac-Antphos=dppdtbpf` gives it the dppdtbpf coordinates. Use the embedding tables exported from the Spotfire analysis if they differ.
-- `--also-as-run-layout` adds the vertical/last mapping, the only one in the committed Spotfire functions. If a horizontal or carbene-first plate was analysed with such a function, that is the mapping it received.
-- The submitted manuscript says the four Suzuki nominees were selected in dioxane with aqueous KOH, so the single-condition rows of the output are relevant for 821.
+The catalyst list differs at library position 28: (dppdtbpf)PdCl2 in campaigns 334, 424 and 425 (`Data/cats_names_35_dppdtbpf.csv`), rac-Antphos in 810 and 821 (`Data/cats_names_35.csv`). The plate layouts are set per campaign in `scores.py`.
 
-## Checks
+## Notes
 
-`historical_pipelines.py` was checked against the saved outputs of `3_0_Algorithm.ipynb` (425) and against the S2.9 table (424) with Python 3.12, NumPy 2.5, pandas 3.1, SciPy and CVXPY 1.9.3 (CLARABEL).
+- **Benchmark membership.** The pooled catalysts are matched to the reference set in `common.py` (`REFERENCE_NAME`). P(oTol)3 was pooled but never measured on its own, so the benchmark covers 34 of the 35 pooled precatalysts. P(tBu)3 was pooled as its G2 precatalyst and measured on its own as the crotyl chloride, so it is matched by ligand.
+- **Validation yields** (`Data/paper/validation_yields.csv`) are externally calibrated LC--MS assay yields of the individually validated catalysts. They enter only the Spearman correlations of the validation subsets.
+- **Solver.** CVXPY chooses the solver (Clarabel with the versions above). Another solver or version can move scores in the fourth decimal and the simulated frequencies by a trial or two out of 120; `check.py` allows for this.
+- **Seeds.** Rank stability uses seed 0 and 400 resamples; the simulations use seed 7 and 120 trials per setting.
+
+## Earlier versions of the code
+
+The scores in the first submission were produced by several earlier versions of the analysis. [`historical/`](historical) re-implements those versions and documents which of the earlier numbers each one reproduces.

@@ -1,0 +1,173 @@
+{
+  "campaigns": {
+    "334": {
+      "raw_file": "ELN032036-334_plate-23_Buchwald-Hartwig_raw.csv",
+      "raw_sha256": "6082b7b7122714c1d9639f78c762d10cd6d4b3eb27e7fb8791f062ec9b9b5dae",
+      "plate": 23,
+      "layout": "horizontal",
+      "carbene": "last",
+      "catalyst_list": "cats_names_35_dppdtbpf.csv",
+      "conditions": [
+        "tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",
+        "CPME (10vol)/ NaOtBu (3.0 eq)/",
+        "PhMe (10vol)/ NaOtBu (3.0 eq)/",
+        "tAmOH (10vol)/ Cs2CO3 (3.0 eq)/",
+        "PhMe (10vol)/ TMSOK (3.0 eq)/",
+        "CPME (10vol)/ KOtBu (3.0 eq)/"
+      ],
+      "retained_conditions": [
+        "tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",
+        "CPME (10vol)/ NaOtBu (3.0 eq)/",
+        "PhMe (10vol)/ NaOtBu (3.0 eq)/",
+        "tAmOH (10vol)/ Cs2CO3 (3.0 eq)/",
+        "PhMe (10vol)/ TMSOK (3.0 eq)/",
+        "CPME (10vol)/ KOtBu (3.0 eq)/"
+      ],
+      "norm_y": 45.39468616473672,
+      "accepted_epsilon": 9.078937232947343,
+      "time_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "424": {
+      "raw_file": "ELN032036-424_plate-13_Meldrum_raw.csv",
+      "raw_sha256": "b077b654a4b40a9e69c8f15b17315475af1ff2bd8b20bab28e3d116950a51d49",
+      "plate": 13,
+      "layout": "vertical",
+      "carbene": "last",
+      "catalyst_list": "cats_names_35_dppdtbpf.csv",
+      "conditions": [
+        "NEt3 (3.0 eq)/ DMI (10vol)/",
+        "K3PO4 (3.0 eq)/ THF (10vol)/",
+        "K2CO3 (3.0 eq)/ THF (10vol)/",
+        "Cs2CO3 (3.0 eq)/ anisole (10vol)/",
+        "NEt3 (3.0 eq)/ anisole (10vol)/",
+        "K2CO3 (3.0 eq)/ MeTHF (10vol)/"
+      ],
+      "retained_conditions": [
+        "NEt3 (3.0 eq)/ DMI (10vol)/",
+        "K3PO4 (3.0 eq)/ THF (10vol)/",
+        "K2CO3 (3.0 eq)/ THF (10vol)/",
+        "Cs2CO3 (3.0 eq)/ anisole (10vol)/",
+        "NEt3 (3.0 eq)/ anisole (10vol)/",
+        "K2CO3 (3.0 eq)/ MeTHF (10vol)/"
+      ],
+      "norm_y": 178.13153276614355,
+      "accepted_epsilon": 1.7813153276614355,
+      "time_weights": [
+        0.5085714285714286,
+        0.49142857142857144
+      ]
+    },
+    "425": {
+      "raw_file": "ELN032036-425_plate-11_Barbituric_raw.csv",
+      "raw_sha256": "4ee0ded861ab0f4d11e6e2c86dd9c8fc3459cfaa8a8b2eddb6481ec143dd2969",
+      "plate": 11,
+      "layout": "vertical",
+      "carbene": "last",
+      "catalyst_list": "cats_names_35_dppdtbpf.csv",
+      "conditions": [
+        "NEt3 (3.0 eq)/ DMI (10vol)/",
+        "DBU (3.0 eq)/ DMSO (10vol)/",
+        "NEt3 (3.0 eq)/ DMSO (10vol)/",
+        "DIPEA (3.0 eq)/ EtOH (10vol)/",
+        "NMM (3.0 eq)/ EtOH (10vol)/",
+        "NMM (3.0 eq)/ ethylene glycol (10vol)/"
+      ],
+      "retained_conditions": [
+        "NEt3 (3.0 eq)/ DMI (10vol)/",
+        "DBU (3.0 eq)/ DMSO (10vol)/",
+        "NEt3 (3.0 eq)/ DMSO (10vol)/",
+        "DIPEA (3.0 eq)/ EtOH (10vol)/",
+        "NMM (3.0 eq)/ EtOH (10vol)/",
+        "NMM (3.0 eq)/ ethylene glycol (10vol)/"
+      ],
+      "norm_y": 119.19634917591507,
+      "accepted_epsilon": 5.959817458795754,
+      "time_weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "810": {
+      "raw_file": "ELN032036-810_plate-1_Barluenga_raw.csv",
+      "raw_sha256": "a40a44bd4186b0a72b54e0eb32a6ace7a46e4d199ffcf07ad33bfb8c2c07ca2d",
+      "plate": 1,
+      "layout": "horizontal",
+      "carbene": "last",
+      "catalyst_list": "cats_names_35.csv",
+      "conditions": [
+        "tAmOH (10vol)/ K3PO4 (3.0 eq)/",
+        "DMAc (10vol)/ K3PO4 (3.0 eq)/",
+        "Dioxane (10vol)/ LiOtBu (3.0 eq)/",
+        "DMAc (10vol)/ LiOtBu (3.0 eq)/",
+        "Dioxane (10vol)/ K2CO3 (3.0 eq)/",
+        "tAmOH (10vol)/ K2CO3 (3.0 eq)/"
+      ],
+      "retained_conditions": [
+        "tAmOH (10vol)/ K3PO4 (3.0 eq)/",
+        "DMAc (10vol)/ K3PO4 (3.0 eq)/",
+        "Dioxane (10vol)/ LiOtBu (3.0 eq)/",
+        "DMAc (10vol)/ LiOtBu (3.0 eq)/",
+        "Dioxane (10vol)/ K2CO3 (3.0 eq)/",
+        "tAmOH (10vol)/ K2CO3 (3.0 eq)/"
+      ],
+      "norm_y": 11.490540652684345,
+      "accepted_epsilon": 0.5745270326342172,
+      "time_weights": [
+        0.2453371592539455,
+        0.375896700143472,
+        0.3787661406025825
+      ]
+    },
+    "821": {
+      "raw_file": "ELN032036-821_plate-1_Suzuki_raw.csv",
+      "raw_sha256": "5ff8321a0f0ce779c76a618aedc6ae7b0eafed7f1c87fc57652b7657cc6a8e76",
+      "plate": 1,
+      "layout": "horizontal",
+      "carbene": "first",
+      "catalyst_list": "cats_names_35.csv",
+      "conditions": [
+        "Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",
+        "tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",
+        "Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",
+        "tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",
+        "Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",
+        "tAmOH (10vol)/ Cs2CO3 (3.0 eq)/"
+      ],
+      "retained_conditions": [
+        "Dioxane (10vol)/ Cs2CO3 (3.0 eq, 3M, aq)/",
+        "tAmOH (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",
+        "Dioxane (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",
+        "tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",
+        "Dioxane (10vol)/ KOH (3.0 eq, 3M, aq)/",
+        "tAmOH (10vol)/ Cs2CO3 (3.0 eq)/"
+      ],
+      "norm_y": 162.2422527548077,
+      "accepted_epsilon": 1.622422527548077,
+      "time_weights": [
+        0.3322475570032573,
+        0.3550488599348534,
+        0.3127035830618892
+      ]
+    }
+  },
+  "sfd": "Lorenzo_M_E_deconvolution.sfd",
+  "sfd_sha256": "bfcf9c89c1a40c6618b7f73f66e5a26cf16ab5e1dd3e309ce8746d3db923d815",
+  "settings": {
+    "product_aggregation": "sum",
+    "time_correction": true,
+    "SM_weights": true,
+    "toll_exp": 6,
+    "chemical_prior": false,
+    "tolerance": "0.01*||y||_2 x 1, 2, 5, 10, 20, 50, 100, 200 (first optimal)",
+    "score": "7x",
+    "tie_tolerance": 0.0001
+  },
+  "python": "3.12.12",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "cvxpy": "1.9.3"
+}

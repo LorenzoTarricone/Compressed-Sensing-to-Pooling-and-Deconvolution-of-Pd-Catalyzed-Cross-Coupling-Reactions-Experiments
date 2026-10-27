@@ -1,0 +1,68 @@
+campaign,catalyst,condition,yield_percent
+334,cBridP,CPME/NaOtBu,58
+334,Jackie CPhos,CPME/NaOtBu,48
+334,SPhos,CPME/NaOtBu,8
+334,dppp,CPME/NaOtBu,1
+334,P(tBu)_3,CPME/NaOtBu,19
+334,GPhos,CPME/NaOtBu,3
+334,PCy_3,CPME/NaOtBu,0
+334,RockPhos,CPME/NaOtBu,0
+334,CPhos,CPME/NaOtBu,31
+334,Triisobutyl-Phosphatrane,CPME/NaOtBu,0
+334,tBuBrettPhos,CPME/NaOtBu,0
+334,XantPhos,CPME/NaOtBu,11
+424,AlPhos,A,82
+424,AlPhos,B,34
+424,tBuXPhos,A,51
+424,tBuXPhos,B,20
+424,tBuBrettPhos,A,73
+424,tBuBrettPhos,B,71
+424,P(tBu)_3,A,0
+424,P(tBu)_3,B,0
+424,dppf,A,0
+424,dppf,B,0
+424,RockPhos,A,40
+424,RockPhos,B,34
+424,GPhos,A,4
+424,GPhos,B,4
+424,cBridP,A,11
+424,cBridP,B,8
+424,Me3(OMe)-tBuXPhos,A,0
+424,Me3(OMe)-tBuXPhos,B,0
+424,CPhos,A,18
+424,CPhos,B,44
+424,Triisobutyl-Phosphatrane,A,7
+424,Triisobutyl-Phosphatrane,B,11
+424,BippyPhos,A,1
+424,BippyPhos,B,1
+425,AlPhos,A,98
+425,AlPhos,B,65
+425,RockPhos,A,64
+425,RockPhos,B,60
+425,tBuBrettPhos,A,57
+425,tBuBrettPhos,B,55
+425,dppf,A,0
+425,dppf,B,0
+425,tBuXPhos,A,65
+425,tBuXPhos,B,6
+425,P(tBu)_3,A,6
+425,P(tBu)_3,B,0
+425,GPhos,A,17
+425,GPhos,B,0
+425,Triisobutyl-Phosphatrane,A,0
+425,Triisobutyl-Phosphatrane,B,0
+425,cBridP,A,8
+425,cBridP,B,0
+425,Me3(OMe)-tBuXPhos,A,40
+425,Me3(OMe)-tBuXPhos,B,30
+425,Mordal-Phos,A,0
+425,Mordal-Phos,B,0
+425,RuPhos,A,0
+425,RuPhos,B,0
+810,cataCXlum A,dioxane/LiOtBu,59
+810,PPh_3,dioxane/LiOtBu,27
+810,XPhos,dioxane/LiOtBu,6
+821,dppp,dioxane/aq KOH,57
+821,BINAP,dioxane/aq KOH,74
+821,Jackie CPhos,dioxane/aq KOH,54
+821,CPhos,dioxane/aq KOH,73

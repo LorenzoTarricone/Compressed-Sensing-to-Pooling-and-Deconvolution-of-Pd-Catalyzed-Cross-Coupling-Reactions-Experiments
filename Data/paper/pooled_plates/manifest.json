@@ -1,0 +1,79 @@
+{
+  "description": "Pooled CatMix screening plates of the five campaigns reported in the paper. Each file keeps every row of the instrument-software export (all peaks, classifications, sampling points and wells) but only the nine columns read by the analysis. full_export_sha256 is the hash of the complete export these rows were taken from.",
+  "columns": [
+    "ELN_ID",
+    "SAMPLE_ID",
+    "PLATENUMBER",
+    "COMPOUND",
+    "SAMPLENUMBER",
+    "AREA_TOTAL_REDUCED",
+    "ColumnLabel",
+    "PLATEROW",
+    "PLATECOLUMN"
+  ],
+  "files": [
+    {
+      "file": "ELN032036-334_plate-23_Buchwald-Hartwig_raw.csv",
+      "eln": "ELN032036-334",
+      "plate": 23,
+      "rows": 1606,
+      "sampling_points": [
+        "1",
+        "2",
+        "3"
+      ],
+      "sha256": "6082b7b7122714c1d9639f78c762d10cd6d4b3eb27e7fb8791f062ec9b9b5dae",
+      "full_export_sha256": "67d35486c1261fc54c6b624c1e3a434b125056d024f5eee5fe809a483f08a51f"
+    },
+    {
+      "file": "ELN032036-424_plate-13_Meldrum_raw.csv",
+      "eln": "ELN032036-424",
+      "plate": 13,
+      "rows": 473,
+      "sampling_points": [
+        "1",
+        "2"
+      ],
+      "sha256": "b077b654a4b40a9e69c8f15b17315475af1ff2bd8b20bab28e3d116950a51d49",
+      "full_export_sha256": "5fd626e2d5c8ce8076b9663a928a9c49068a8439299a1fe744cb8c92911c8c93"
+    },
+    {
+      "file": "ELN032036-425_plate-11_Barbituric_raw.csv",
+      "eln": "ELN032036-425",
+      "plate": 11,
+      "rows": 600,
+      "sampling_points": [
+        "1",
+        "2"
+      ],
+      "sha256": "4ee0ded861ab0f4d11e6e2c86dd9c8fc3459cfaa8a8b2eddb6481ec143dd2969",
+      "full_export_sha256": "670ea4cd52fdffe70c372cbe8abd8982991b17ad28a7d7182f9620a50c137f62"
+    },
+    {
+      "file": "ELN032036-810_plate-1_Barluenga_raw.csv",
+      "eln": "ELN032036-810",
+      "plate": 1,
+      "rows": 1393,
+      "sampling_points": [
+        "1",
+        "2",
+        "3"
+      ],
+      "sha256": "a40a44bd4186b0a72b54e0eb32a6ace7a46e4d199ffcf07ad33bfb8c2c07ca2d",
+      "full_export_sha256": "740fead21c3af3df440687d41e34caba70c5b2cfd173e247dcd7966a74c0abb9"
+    },
+    {
+      "file": "ELN032036-821_plate-1_Suzuki_raw.csv",
+      "eln": "ELN032036-821",
+      "plate": 1,
+      "rows": 1868,
+      "sampling_points": [
+        "1",
+        "2",
+        "3"
+      ],
+      "sha256": "5ff8321a0f0ce779c76a618aedc6ae7b0eafed7f1c87fc57652b7657cc6a8e76",
+      "full_export_sha256": "25c8eb49e207c73ae4bd51ecc80770fca6b00efc7be2bf7d27d88068dbd27a9c"
+    }
+  ]
+}

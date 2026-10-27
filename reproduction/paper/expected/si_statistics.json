@@ -1,0 +1,712 @@
+{
+ "S1.3 nonzero pools per condition": {
+  "tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/": 12,
+  "CPME (10vol)/ NaOtBu (3.0 eq)/": 15,
+  "PhMe (10vol)/ NaOtBu (3.0 eq)/": 15,
+  "tAmOH (10vol)/ Cs2CO3 (3.0 eq)/": 8,
+  "PhMe (10vol)/ TMSOK (3.0 eq)/": 14,
+  "CPME (10vol)/ KOtBu (3.0 eq)/": 13
+ },
+ "S1.3 filter sweep": [
+  {
+   "threshold": 0,
+   "n_kept": 6,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 1,
+   "n_kept": 6,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 2,
+   "n_kept": 6,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 3,
+   "n_kept": 6,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 4,
+   "n_kept": 6,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 5,
+   "n_kept": 6,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 6,
+   "n_kept": 6,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 7,
+   "n_kept": 6,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 8,
+   "n_kept": 5,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "P(tBu)_3"
+   ]
+  },
+  {
+   "threshold": 9,
+   "n_kept": 5,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "P(tBu)_3"
+   ]
+  },
+  {
+   "threshold": 10,
+   "n_kept": 5,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "P(tBu)_3"
+   ]
+  },
+  {
+   "threshold": 11,
+   "n_kept": 5,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "P(tBu)_3"
+   ]
+  },
+  {
+   "threshold": 12,
+   "n_kept": 4,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "P(tBu)_3"
+   ]
+  },
+  {
+   "threshold": 13,
+   "n_kept": 3,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  },
+  {
+   "threshold": 14,
+   "n_kept": 2,
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ]
+  }
+ ],
+ "S2.4 scale": {
+  "mean_pooled_reading": 8.99,
+  "max_pooled_reading": 22.109,
+  "norm_y": 45.3947,
+  "sum_y": 134.852,
+  "seven_thirds_sum_y": 314.655,
+  "sum_scores": 277.642,
+  "max_score": 72.163
+ },
+ "S2.2 additivity": {
+  "n_comparisons": 72,
+  "pools_with_all_members_measured": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   9,
+   10,
+   11,
+   12,
+   14,
+   15
+  ],
+  "MEAN": {
+   "pearson": 0.747,
+   "spearman": 0.748,
+   "scale_through_origin": 1.5,
+   "rmse_scaled": 9.76
+  },
+  "MAX": {
+   "pearson": 0.728,
+   "spearman": 0.741,
+   "scale_through_origin": 0.446,
+   "rmse_scaled": 10.14
+  },
+  "SAT": {
+   "pearson": 0.719,
+   "spearman": 0.746,
+   "scale_through_origin": 0.301,
+   "rmse_scaled": 10.33
+  },
+  "SUM": {
+   "pearson": 0.747,
+   "spearman": 0.748,
+   "scale_through_origin": 0.214,
+   "rmse_scaled": 9.76
+  },
+  "pearson_MEAN_NaOtBu_conditions_only": 0.58,
+  "per_condition_spearman_MEAN": {
+   "CPME (10vol)/ KOtBu (3.0 eq)/": 0.503,
+   "CPME (10vol)/ NaOtBu (3.0 eq)/": 0.455,
+   "PhMe (10vol)/ NaOtBu (3.0 eq)/": 0.497,
+   "PhMe (10vol)/ TMSOK (3.0 eq)/": 0.308,
+   "tAmOH (10vol)/ Cs2CO3 (3.0 eq)/": -0.102,
+   "tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/": -0.434
+  }
+ },
+ "S2.5 benchmark": {
+  "n": 34,
+  "spearman_best_of_6": [
+   0.131,
+   0.46
+  ],
+  "spearman_CPME_NaOtBu": [
+   0.137,
+   0.44
+  ],
+  "spearman_mean_of_3_pools": [
+   0.346,
+   0.045
+  ],
+  "reference_top6": [
+   [
+    "cBridP",
+    66.2
+   ],
+   [
+    "Jackie CPhos",
+    63.0
+   ],
+   [
+    "CPhos",
+    52.3
+   ],
+   [
+    "QPhos",
+    51.2
+   ],
+   [
+    "P(tBu)_3",
+    50.3
+   ],
+   [
+    "RuPhos",
+    33.9
+   ]
+  ],
+  "score_top6": [
+   [
+    "Jackie CPhos",
+    72.16,
+    "reference rank 2"
+   ],
+   [
+    "GPhos",
+    37.47,
+    "reference rank 24"
+   ],
+   [
+    "Triisobutyl-Phosphatrane",
+    32.41,
+    "reference rank 19"
+   ],
+   [
+    "P(tBu)_3",
+    32.04,
+    "reference rank 5"
+   ],
+   [
+    "SPhos",
+    32.02,
+    "reference rank 12"
+   ],
+   [
+    "dppp",
+    20.23,
+    "reference rank 25"
+   ]
+  ],
+  "n_reference_ge_25": 9,
+  "reference_ge_25": [
+   [
+    "cBridP",
+    66.2
+   ],
+   [
+    "Jackie CPhos",
+    63.0
+   ],
+   [
+    "CPhos",
+    52.3
+   ],
+   [
+    "QPhos",
+    51.2
+   ],
+   [
+    "P(tBu)_3",
+    50.3
+   ],
+   [
+    "RuPhos",
+    33.9
+   ],
+   [
+    "dppdtbpf",
+    28.7
+   ],
+   [
+    "dtbpf",
+    27.1
+   ],
+   [
+    "VPhos",
+    25.5
+   ]
+  ],
+  "recovered_in_top_n_hit": 3,
+  "top_k_overlap": {
+   "1": 0,
+   "2": 1,
+   "3": 1,
+   "5": 2
+  },
+  "tied_groups_of_reference_set": [
+   [
+    0.0,
+    22
+   ]
+  ],
+  "scores_of_reference_ge_25": [
+   [
+    "cBridP",
+    12.92,
+    8
+   ],
+   [
+    "Jackie CPhos",
+    72.16,
+    1
+   ],
+   [
+    "CPhos",
+    0.0,
+    13
+   ],
+   [
+    "QPhos",
+    0.0,
+    18
+   ],
+   [
+    "P(tBu)_3",
+    32.04,
+    4
+   ],
+   [
+    "RuPhos",
+    0.0,
+    15
+   ],
+   [
+    "dppdtbpf",
+    0.0,
+    23
+   ],
+   [
+    "dtbpf",
+    0.0,
+    30
+   ],
+   [
+    "VPhos",
+    0.0,
+    24
+   ]
+  ],
+  "head_score": {
+   "best_ranked_first": false,
+   "best_two_in_leading_two": 1,
+   "actives_in_leading_8": 3,
+   "actives_in_leading_3": 1
+  },
+  "head_mean_of_3_pools": {
+   "best_ranked_first": false,
+   "best_two_in_leading_two": 1,
+   "actives_in_leading_8": 4,
+   "actives_in_leading_3": 1
+  },
+  "tied_groups_of_35": [
+   [
+    0.0,
+    23
+   ]
+  ],
+  "n_nonzero_of_35": 12
+ },
+ "per-condition vs reference": [
+  {
+   "condition": "tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",
+   "top3": [
+    "tBuBrettPhos",
+    "PCy_3",
+    "RuPhos"
+   ],
+   "spearman_vs_reference": -0.213
+  },
+  {
+   "condition": "CPME (10vol)/ NaOtBu (3.0 eq)/",
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ],
+   "spearman_vs_reference": 0.19
+  },
+  {
+   "condition": "PhMe (10vol)/ NaOtBu (3.0 eq)/",
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "Triisobutyl-Phosphatrane"
+   ],
+   "spearman_vs_reference": 0.115
+  },
+  {
+   "condition": "tAmOH (10vol)/ Cs2CO3 (3.0 eq)/",
+   "top3": [
+    "Triisobutyl-Phosphatrane",
+    "CyJohnPhos",
+    "Jackie CPhos"
+   ],
+   "spearman_vs_reference": 0.292
+  },
+  {
+   "condition": "PhMe (10vol)/ TMSOK (3.0 eq)/",
+   "top3": [
+    "Jackie CPhos",
+    "GPhos",
+    "meCgPPh"
+   ],
+   "spearman_vs_reference": 0.126
+  },
+  {
+   "condition": "CPME (10vol)/ KOtBu (3.0 eq)/",
+   "top3": [
+    "P(tBu)_3",
+    "SPhos",
+    "Jackie CPhos"
+   ],
+   "spearman_vs_reference": 0.188
+  }
+ ],
+ "S2.6 rank stability (400 resamples)": {
+  "Jackie CPhos": {
+   "first": 0.69,
+   "top3": 0.922
+  },
+  "GPhos": {
+   "first": 0.083,
+   "top3": 0.507
+  },
+  "Triisobutyl-Phosphatrane": {
+   "first": 0.075,
+   "top3": 0.427
+  },
+  "SPhos": {
+   "first": 0.048,
+   "top3": 0.405
+  },
+  "P(tBu)_3": {
+   "first": 0.08,
+   "top3": 0.352
+  },
+  "cBridP": {
+   "first": 0.007,
+   "top3": 0.133
+  },
+  "dppp": {
+   "first": 0.005,
+   "top3": 0.065
+  },
+  "PCy_3": {
+   "first": 0.003,
+   "top3": 0.052
+  }
+ },
+ "validation subsets": {
+  "334": {
+   "n": 12,
+   "rho": 0.112,
+   "best_validated": "cBridP",
+   "best_validated_rank": "8",
+   "scores_and_ranks": {
+    "cBridP": [
+     12.92,
+     "8"
+    ],
+    "Jackie CPhos": [
+     72.16,
+     "1"
+    ],
+    "SPhos": [
+     32.02,
+     "5"
+    ],
+    "dppp": [
+     20.23,
+     "6"
+    ],
+    "P(tBu)_3": [
+     32.04,
+     "4"
+    ],
+    "GPhos": [
+     37.47,
+     "2"
+    ],
+    "PCy_3": [
+     15.12,
+     "7"
+    ],
+    "RockPhos": [
+     10.33,
+     "9"
+    ],
+    "CPhos": [
+     0.0,
+     "13-35"
+    ],
+    "Triisobutyl-Phosphatrane": [
+     32.41,
+     "3"
+    ],
+    "tBuBrettPhos": [
+     0.0,
+     "13-35"
+    ],
+    "XantPhos": [
+     4.74,
+     "10"
+    ]
+   }
+  },
+  "424": {
+   "n": 12,
+   "rho_best_of_AB": 0.434,
+   "rho_A": 0.472,
+   "rho_B": 0.243,
+   "best_validated": "AlPhos",
+   "best_validated_rank": "1",
+   "scores_and_ranks": {
+    "AlPhos": [
+     244.15,
+     "1"
+    ],
+    "tBuXPhos": [
+     183.07,
+     "2"
+    ],
+    "tBuBrettPhos": [
+     149.53,
+     "3"
+    ],
+    "P(tBu)_3": [
+     141.13,
+     "4"
+    ],
+    "dppf": [
+     136.39,
+     "5"
+    ],
+    "RockPhos": [
+     106.25,
+     "6"
+    ],
+    "GPhos": [
+     67.88,
+     "7"
+    ],
+    "cBridP": [
+     58.53,
+     "8"
+    ],
+    "Me3(OMe)-tBuXPhos": [
+     34.7,
+     "9"
+    ],
+    "CPhos": [
+     21.95,
+     "10"
+    ],
+    "Triisobutyl-Phosphatrane": [
+     20.26,
+     "11"
+    ],
+    "BippyPhos": [
+     17.79,
+     "12"
+    ]
+   }
+  },
+  "425": {
+   "n": 12,
+   "rho_best_of_AB": 0.658,
+   "rho_A": 0.658,
+   "rho_B": 0.663,
+   "best_validated": "AlPhos",
+   "best_validated_rank": "1",
+   "scores_and_ranks": {
+    "AlPhos": [
+     181.69,
+     "1"
+    ],
+    "RockPhos": [
+     180.18,
+     "2"
+    ],
+    "tBuBrettPhos": [
+     130.22,
+     "3"
+    ],
+    "dppf": [
+     86.34,
+     "4"
+    ],
+    "tBuXPhos": [
+     69.09,
+     "5"
+    ],
+    "P(tBu)_3": [
+     36.21,
+     "6"
+    ],
+    "GPhos": [
+     29.74,
+     "7"
+    ],
+    "Triisobutyl-Phosphatrane": [
+     22.08,
+     "8"
+    ],
+    "cBridP": [
+     19.51,
+     "9"
+    ],
+    "Me3(OMe)-tBuXPhos": [
+     14.16,
+     "10"
+    ],
+    "Mordal-Phos": [
+     9.67,
+     "11"
+    ],
+    "RuPhos": [
+     6.75,
+     "12"
+    ]
+   }
+  },
+  "810": {
+   "n": 3,
+   "rho": 1.0,
+   "best_validated": "cataCXlum A",
+   "best_validated_rank": "1",
+   "scores_and_ranks": {
+    "cataCXlum A": [
+     12.28,
+     "1"
+    ],
+    "PPh_3": [
+     8.44,
+     "2"
+    ],
+    "XPhos": [
+     2.27,
+     "16"
+    ]
+   }
+  },
+  "821": {
+   "n": 4,
+   "rho": 0.0,
+   "best_validated": "BINAP",
+   "best_validated_rank": "2",
+   "scores_and_ranks": {
+    "dppp": [
+     118.39,
+     "1"
+    ],
+    "BINAP": [
+     95.47,
+     "2"
+    ],
+    "Jackie CPhos": [
+     89.85,
+     "3"
+    ],
+    "CPhos": [
+     68.89,
+     "6"
+    ]
+   }
+  }
+ },
+ "accepted epsilon": {
+  "334": 9.0789,
+  "424": 1.7813,
+  "425": 5.9598,
+  "810": 0.5745,
+  "821": 1.6224
+ }
+}

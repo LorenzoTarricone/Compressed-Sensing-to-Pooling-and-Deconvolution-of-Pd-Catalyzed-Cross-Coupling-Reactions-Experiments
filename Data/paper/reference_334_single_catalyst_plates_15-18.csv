@@ -1,0 +1,835 @@
+ELN_ID,PLATENUMBER,SAMPLENUMBER,PlateRow,PlateColumn,ColumnLabel,RowLabel,AREA_TOTAL_REDUCED
+ELN032036-334,15,1.0,H,2,2: Piperidinyl-amino-pincer PdCl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.624566263489429
+ELN032036-334,15,1.0,D,3,3: TrixiePhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,8.96542490951564
+ELN032036-334,15,1.0,E,3,3: TrixiePhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,12.4689755744518
+ELN032036-334,15,1.0,H,1,1: meCgPPh Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.151649183104362
+ELN032036-334,15,1.0,G,3,3: TrixiePhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.29684715526114
+ELN032036-334,15,1.0,H,3,3: TrixiePhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.638369350533051
+ELN032036-334,15,1.0,B,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.222483970851489
+ELN032036-334,15,1.0,D,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,46.7383299108161
+ELN032036-334,15,1.0,B,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.231135286949778
+ELN032036-334,15,1.0,F,3,3: TrixiePhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0752162445964433
+ELN032036-334,15,1.0,C,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.197290549264472
+ELN032036-334,15,1.0,E,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,60.1975174722926
+ELN032036-334,15,1.0,E,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,10.2434543914895
+ELN032036-334,15,1.0,E,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.298576011358581
+ELN032036-334,15,1.0,F,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.98446933716317
+ELN032036-334,15,1.0,G,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,20.4389392584471
+ELN032036-334,15,1.0,A,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.717304988565681
+ELN032036-334,15,1.0,F,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.560991532019009
+ELN032036-334,15,1.0,G,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.587030727443485
+ELN032036-334,15,1.0,A,6,6: N-XantPhos Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0898587941473778
+ELN032036-334,15,1.0,D,6,6: N-XantPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.09504418981115
+ELN032036-334,15,1.0,A,7,7: RockPhos Pd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.206896559945468
+ELN032036-334,15,1.0,C,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0666844505872436
+ELN032036-334,15,1.0,D,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,30.4308198539276
+ELN032036-334,15,1.0,D,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.208251977868748
+ELN032036-334,15,1.0,E,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,25.3896738533745
+ELN032036-334,15,1.0,H,5,5: RuPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,33.8925785604636
+ELN032036-334,15,1.0,E,6,6: N-XantPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0362888584755795
+ELN032036-334,15,1.0,E,6,6: N-XantPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.604814321444978
+ELN032036-334,15,1.0,H,6,6: N-XantPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.113550344835204
+ELN032036-334,15,1.0,D,7,7: RockPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.2273696114818
+ELN032036-334,15,1.0,E,7,7: RockPhos Pd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.216312509807956
+ELN032036-334,15,1.0,H,7,7: RockPhos Pd G6 Br (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.122399021488722
+ELN032036-334,15,1.0,B,8,8: (DiMeIHept Cl) Pd(cinnamyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",3.86548992213112
+ELN032036-334,15,1.0,C,8,8: (DiMeIHept Cl) Pd(cinnamyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.521423721324301
+ELN032036-334,15,1.0,D,8,8: (DiMeIHept Cl) Pd(cinnamyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,23.6925979055439
+ELN032036-334,15,1.0,F,8,8: (DiMeIHept Cl) Pd(cinnamyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.53207338217974
+ELN032036-334,15,1.0,G,8,8: (DiMeIHept Cl) Pd(cinnamyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,26.3702793866924
+ELN032036-334,15,1.0,A,9,9: VPhos Pd G4 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.160098514790854
+ELN032036-334,15,1.0,G,9,9: VPhos Pd G4 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.174324491646269
+ELN032036-334,15,1.0,H,8,8: (DiMeIHept Cl) Pd(cinnamyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,31.2117500145327
+ELN032036-334,15,1.0,B,9,9: VPhos Pd G4 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.124937531667015
+ELN032036-334,15,1.0,C,9,9: VPhos Pd G4 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0367286963973563
+ELN032036-334,15,1.0,D,9,9: VPhos Pd G4 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,9.22229853877599
+ELN032036-334,15,1.0,E,9,9: VPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,6.29051598932892
+ELN032036-334,15,1.0,E,9,9: VPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,8.83553445489098
+ELN032036-334,15,1.0,E,9,9: VPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.12004802209605
+ELN032036-334,15,1.0,A,11,11: tBuBrettPhos Pd(allyl)OTf (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.193213376953981
+ELN032036-334,15,1.0,D,11,11: tBuBrettPhos Pd(allyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.22790450543509
+ELN032036-334,15,1.0,F,9,9: VPhos Pd G4 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.176300215168189
+ELN032036-334,15,1.0,H,9,9: VPhos Pd G4 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,25.5470915181444
+ELN032036-334,15,1.0,H,10,10: PPh3)2PdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.126310472898508
+ELN032036-334,15,1.0,D,12,12: PEPPSI SIPr (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,36.7191467651733
+ELN032036-334,15,1.0,D,12,12: PEPPSI SIPr (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,6.97054311219383
+ELN032036-334,15,1.0,D,12,12: PEPPSI SIPr (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.457084831461314
+ELN032036-334,15,1.0,F,12,12: PEPPSI SIPr (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,10.4225699521932
+ELN032036-334,18,1.0,D,1,1: CyJohnPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,8.71868941630079
+ELN032036-334,18,1.0,D,1,1: CyJohnPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.497752085687851
+ELN032036-334,18,1.0,D,1,1: CyJohnPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.545921643910938
+ELN032036-334,18,1.0,E,1,1: CyJohnPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,12.1545273324964
+ELN032036-334,18,1.0,E,1,1: CyJohnPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.25988700976332
+ELN032036-334,15,1.0,G,12,12: PEPPSI SIPr (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.237435703926786
+ELN032036-334,18,1.0,F,1,1: CyJohnPhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0952769844806347
+ELN032036-334,18,1.0,H,1,1: CyJohnPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,8.90840631953177
+ELN032036-334,18,1.0,H,1,1: CyJohnPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.439146788819462
+ELN032036-334,18,1.0,B,2,2: dtbpfPdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.669188259930609
+ELN032036-334,18,1.0,B,2,2: dtbpfPdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.261856281280039
+ELN032036-334,18,1.0,D,2,2: dtbpfPdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,27.1387338630725
+ELN032036-334,18,1.0,E,2,2: dtbpfPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,26.2786339305809
+ELN032036-334,18,1.0,G,2,2: dtbpfPdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.682166230755326
+ELN032036-334,18,1.0,H,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.586510264628607
+ELN032036-334,18,1.0,H,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0399893355475328
+ELN032036-334,18,1.0,G,1,1: CyJohnPhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.77810438612125
+ELN032036-334,18,1.0,C,2,2: dtbpfPdCl2 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.639813864602267
+ELN032036-334,18,1.0,F,2,2: dtbpfPdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.1033757684372
+ELN032036-334,18,1.0,H,2,2: dtbpfPdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,15.1179119769313
+ELN032036-334,18,1.0,D,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.82668422014616
+ELN032036-334,18,1.0,E,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,4.50914713367729
+ELN032036-334,18,1.0,G,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0547345363268876
+ELN032036-334,18,1.0,D,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.64701798751591
+ELN032036-334,18,1.0,D,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.14979194300467
+ELN032036-334,18,1.0,E,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.93347525495836
+ELN032036-334,18,1.0,E,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,4.44043919288447
+ELN032036-334,18,1.0,G,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0811688318756876
+ELN032036-334,18,1.0,B,5,5: XPhos Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.197349875139779
+ELN032036-334,18,1.0,D,5,5: XPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,9.13996651943736
+ELN032036-334,18,1.0,E,5,5: XPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,12.3053895916548
+ELN032036-334,18,1.0,G,5,5: XPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.761730659124368
+ELN032036-334,18,1.0,H,5,5: XPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,17.3425753155894
+ELN032036-334,18,1.0,H,5,5: XPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.457159718073562
+ELN032036-334,18,1.0,H,5,5: XPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.752101451821135
+ELN032036-334,18,1.0,H,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,8.56534125352633
+ELN032036-334,18,1.0,A,5,5: XPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.285456725387605
+ELN032036-334,18,1.0,F,5,5: XPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.133689843596705
+ELN032036-334,18,1.0,H,6,6: bridged tBuPhosphinito PdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.156838144810449
+ELN032036-334,18,1.0,E,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,3.12108126656614
+ELN032036-334,18,1.0,G,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.684644420324315
+ELN032036-334,18,1.0,H,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,4.68573045543923
+ELN032036-334,16,1.0,E,1,1: cPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,14.8493769203078
+ELN032036-334,16,1.0,E,1,1: cPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.884086452635176
+ELN032036-334,16,1.0,E,1,1: cPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0982318219715408
+ELN032036-334,16,1.0,E,1,1: cPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.114603795349648
+ELN032036-334,18,1.0,D,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.5679441957639
+ELN032036-334,18,1.0,D,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.62154923613333
+ELN032036-334,18,1.0,D,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.120611101198482
+ELN032036-334,18,1.0,D,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0670061656683738
+ELN032036-334,18,1.0,F,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0947867297717543
+ELN032036-334,16,1.0,D,1,1: cPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,12.3667383823369
+ELN032036-334,16,1.0,D,1,1: cPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.116301610195213
+ELN032036-334,16,1.0,F,1,1: cPhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0318167345828368
+ELN032036-334,16,1.0,A,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0973709814513595
+ELN032036-334,16,1.0,E,1,1: cPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0982318219715408
+ELN032036-334,16,1.0,E,1,1: cPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.360183353328017
+ELN032036-334,16,1.0,G,1,1: cPhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.102923015281149
+ELN032036-334,16,1.0,H,1,1: cPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,30.5444299053479
+ELN032036-334,16,1.0,H,1,1: cPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.103842160594087
+ELN032036-334,16,1.0,H,1,1: cPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0890075638550812
+ELN032036-334,16,1.0,H,1,1: cPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.133511354072097
+ELN032036-334,16,1.0,H,1,1: cPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0593383759033875
+ELN032036-334,16,1.0,D,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.87364515264238
+ELN032036-334,16,1.0,D,3,3: AlPhosPd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.250278096442729
+ELN032036-334,16,1.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,3.79718584482276
+ELN032036-334,16,1.0,E,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.73470724089196
+ELN032036-334,16,1.0,E,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.03039001000593
+ELN032036-334,16,1.0,H,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.32799292161199
+ELN032036-334,16,1.0,B,3,3: AlPhosPd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",1.8044027609084
+ELN032036-334,16,1.0,C,3,3: AlPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",1.61454358427423
+ELN032036-334,16,1.0,E,3,3: AlPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.218023265887751
+ELN032036-334,16,1.0,E,3,3: AlPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.423934104049888
+ELN032036-334,16,1.0,E,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,12.9903541883855
+ELN032036-334,16,1.0,D,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,12.3094389457973
+ELN032036-334,16,1.0,H,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.52431349324707
+ELN032036-334,16,1.0,H,6,6: XantPhos Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0902294410503517
+ELN032036-334,16,1.0,H,6,6: XantPhos Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.54679047288454
+ELN032036-334,16,1.0,H,6,6: XantPhos Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.644496004758586
+ELN032036-334,16,1.0,F,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.463977334188866
+ELN032036-334,16,1.0,H,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,17.6871596477277
+ELN032036-334,16,1.0,E,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,9.26156111362887
+ELN032036-334,16,1.0,D,6,6: XantPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,9.19050521144129
+ELN032036-334,16,1.0,D,6,6: XantPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,5.58429719208501
+ELN032036-334,16,1.0,D,6,6: XantPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.517346328558451
+ELN032036-334,16,1.0,E,6,6: XantPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.12913032417728
+ELN032036-334,16,1.0,E,6,6: XantPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.46094286363517
+ELN032036-334,16,1.0,G,6,6: XantPhos Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.6835788980717
+ELN032036-334,16,1.0,H,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.90516078430938
+ELN032036-334,16,1.0,H,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.472845166002462
+ELN032036-334,16,1.0,A,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",1.68872089090944
+ELN032036-334,16,1.0,A,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",5.77189653646883
+ELN032036-334,16,1.0,A,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",6.52804007994471
+ELN032036-334,16,1.0,A,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.226843108112438
+ELN032036-334,16,1.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,6.03207830610678
+ELN032036-334,16,1.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.78940038357793
+ELN032036-334,16,1.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,4.42817297644055
+ELN032036-334,16,1.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.13319384737732
+ELN032036-334,16,1.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.37726645627751
+ELN032036-334,16,1.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,4.14923320825724
+ELN032036-334,16,1.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.58019534961392
+ELN032036-334,16,1.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.60390522575297
+ELN032036-334,16,1.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,7.89913791669237
+ELN032036-334,16,1.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.28997810610119
+ELN032036-334,16,1.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,3.76945848965961
+ELN032036-334,16,1.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.797632842428464
+ELN032036-334,16,1.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.92975686200145
+ELN032036-334,16,1.0,G,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.199383721681776
+ELN032036-334,16,1.0,G,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.761283281323482
+ELN032036-334,16,1.0,G,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.235635300075862
+ELN032036-334,16,1.0,B,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",15.6006856595126
+ELN032036-334,16,1.0,F,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.249554360541252
+ELN032036-334,16,1.0,F,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.142602493002705
+ELN032036-334,16,1.0,F,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.118835415262552
+ELN032036-334,16,1.0,F,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.21390375278495
+ELN032036-334,16,1.0,F,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,2.68568033358088
+ELN032036-334,16,1.0,F,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.261437908265257
+ELN032036-334,16,1.0,H,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.18186404224735
+ELN032036-334,16,1.0,H,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.681044287075956
+ELN032036-334,16,1.0,H,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.20179088734553
+ELN032036-334,16,1.0,B,10,10: dpppPdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0913361180264805
+ELN032036-334,16,1.0,C,10,10: dpppPdCl2 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0728951513159976
+ELN032036-334,16,1.0,D,10,10: dpppPdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.600713328510597
+ELN032036-334,16,1.0,E,10,10: dpppPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.254555197172422
+ELN032036-334,16,1.0,H,10,10: dpppPdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.230208474131106
+ELN032036-334,16,1.0,D,9,9: Jackie CPhos Pd G4 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,46.3554584395888
+ELN032036-334,16,1.0,E,9,9: Jackie CPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,64.6562668528603
+ELN032036-334,16,1.0,E,9,9: Jackie CPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.727902939160328
+ELN032036-334,16,1.0,E,9,9: Jackie CPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.8370884227321
+ELN032036-334,16,1.0,F,9,9: Jackie CPhos Pd G4 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.47097453867414
+ELN032036-334,16,1.0,G,9,9: Jackie CPhos Pd G4 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,4.68972646782386
+ELN032036-334,16,1.0,G,9,9: Jackie CPhos Pd G4 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.155460547334554
+ELN032036-334,16,1.0,G,9,9: Jackie CPhos Pd G4 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.207280729779405
+ELN032036-334,16,1.0,H,9,9: Jackie CPhos Pd G4 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,4.25505525466618
+ELN032036-334,16,1.0,H,9,9: Jackie CPhos Pd G4 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.297729801288157
+ELN032036-334,16,1.0,A,10,10: dpppPdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.234770785739961
+ELN032036-334,16,1.0,F,10,10: dpppPdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0594742487528953
+ELN032036-334,16,1.0,F,10,10: dpppPdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.095158794459691
+ELN032036-334,16,1.0,G,10,10: dpppPdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0653879683483117
+ELN032036-334,16,1.0,A,11,11: AdBrettPhosPd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.316233322050756
+ELN032036-334,16,1.0,B,11,11: AdBrettPhosPd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",2.24311034736125
+ELN032036-334,16,1.0,G,11,11: AdBrettPhosPd G6 Br (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.10051360749102
+ELN032036-334,17,1.0,A,1,1: JackiePhos Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.304378354285922
+ELN032036-334,17,1.0,H,1,1: JackiePhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.237678254123687
+ELN032036-334,17,1.0,H,1,1: JackiePhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0500375266933964
+ELN032036-334,17,1.0,H,1,1: JackiePhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.262697012810277
+ELN032036-334,16,1.0,C,11,11: AdBrettPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.131926124665742
+ELN032036-334,16,1.0,C,11,11: AdBrettPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",1.21372035085653
+ELN032036-334,16,1.0,E,11,11: AdBrettPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0404749041955867
+ELN032036-334,16,1.0,D,12,12: MorDalPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.304240342193359
+ELN032036-334,16,1.0,E,12,12: MorDalPhos Pd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.535433076498077
+ELN032036-334,17,1.0,D,1,1: JackiePhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.158814193497641
+ELN032036-334,17,1.0,E,1,1: JackiePhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.57707072813348
+ELN032036-334,17,1.0,E,2,2: dppfPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0368505090107814
+ELN032036-334,17,1.0,E,2,2: dppfPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.577324652608813
+ELN032036-334,17,1.0,D,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.22838943861674
+ELN032036-334,17,1.0,F,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.666666681116278
+ELN032036-334,17,1.0,H,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.848587695504102
+ELN032036-334,17,1.0,A,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.101884867225508
+ELN032036-334,17,1.0,C,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0667378546371344
+ELN032036-334,17,1.0,F,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0364608642186325
+ELN032036-334,17,1.0,F,1,1: JackiePhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0464630027123167
+ELN032036-334,17,1.0,G,1,1: JackiePhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.534007871190494
+ELN032036-334,17,1.0,D,2,2: dppfPdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.705616712422443
+ELN032036-334,17,1.0,E,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.63686889809693
+ELN032036-334,17,1.0,E,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.555752631552477
+ELN032036-334,17,1.0,G,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,6.40708971712964
+ELN032036-334,17,1.0,B,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.13971802368034
+ELN032036-334,17,1.0,D,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,37.5656463122509
+ELN032036-334,17,1.0,F,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.230918808981795
+ELN032036-334,17,1.0,G,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,3.35397328543988
+ELN032036-334,17,1.0,G,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.257997948976882
+ELN032036-334,17,1.0,A,5,5: GPhos Pd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.059815768218431
+ELN032036-334,17,1.0,B,5,5: GPhos Pd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.072974944247111
+ELN032036-334,17,1.0,D,5,5: GPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.35112137273517
+ELN032036-334,17,1.0,D,5,5: GPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.510440851032105
+ELN032036-334,17,1.0,H,5,5: GPhos Pd G6 Br (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,3.02191187888515
+ELN032036-334,17,1.0,C,6,6: rac-BINAP Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0614250598601977
+ELN032036-334,17,1.0,E,6,6: rac-BINAP Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.225332066299185
+ELN032036-334,17,1.0,E,6,6: rac-BINAP Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0237191646410701
+ELN032036-334,17,1.0,E,6,6: rac-BINAP Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0948766585642804
+ELN032036-334,17,1.0,E,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,37.1635598578838
+ELN032036-334,17,1.0,H,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,36.7701081774691
+ELN032036-334,17,1.0,E,5,5: GPhos Pd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,4.67443461297818
+ELN032036-334,17,1.0,G,6,6: rac-BINAP Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0643914999898676
+ELN032036-334,17,1.0,D,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,15.9314046623875
+ELN032036-334,17,1.0,H,6,6: rac-BINAP Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.206737203860522
+ELN032036-334,17,1.0,H,6,6: rac-BINAP Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0729660695523625
+ELN032036-334,17,1.0,H,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,4.06730404342207
+ELN032036-334,17,1.0,A,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0791034915717068
+ELN032036-334,17,1.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.25886100559356
+ELN032036-334,17,1.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.915969762314049
+ELN032036-334,17,1.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.53325366677525
+ELN032036-334,17,1.0,E,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,17.6590908657421
+ELN032036-334,17,1.0,F,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.7162468909671
+ELN032036-334,17,1.0,G,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,3.92887871885465
+ELN032036-334,17,1.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.288040078990031
+ELN032036-334,17,1.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.701314965195844
+ELN032036-334,17,1.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.55291171397978
+ELN032036-334,17,1.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.56543518350449
+ELN032036-334,17,1.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.182083038951889
+ELN032036-334,17,1.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.44913815068911
+ELN032036-334,17,1.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,3.82374378181302
+ELN032036-334,17,1.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.409441232933204
+ELN032036-334,17,1.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.337186895598573
+ELN032036-334,17,1.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.204720616466602
+ELN032036-334,17,1.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0353898775126174
+ELN032036-334,17,1.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.495458280782057
+ELN032036-334,17,1.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,3.44461491155568
+ELN032036-334,17,1.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.40379857354533
+ELN032036-334,17,1.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0269215228247291
+ELN032036-334,17,1.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.10378245085747
+ELN032036-334,17,1.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.794184905778673
+ELN032036-334,17,1.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.753802659150513
+ELN032036-334,17,1.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.103996435675864
+ELN032036-334,17,1.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.103996435675864
+ELN032036-334,17,1.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0148566332726572
+ELN032036-334,17,1.0,D,10,10: dppdtbpf)PdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,14.2172071119246
+ELN032036-334,17,1.0,D,10,10: dppdtbpf)PdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,21.7489421041544
+ELN032036-334,17,1.0,G,10,10: dppdtbpf)PdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.31794094756879
+ELN032036-334,17,1.0,D,11,11: QPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,29.8927070415216
+ELN032036-334,17,1.0,E,11,11: QPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,28.7622649010738
+ELN032036-334,17,1.0,F,11,11: QPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.392903933816297
+ELN032036-334,17,1.0,E,10,10: dppdtbpf)PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,24.3434964195138
+ELN032036-334,17,1.0,F,10,10: dppdtbpf)PdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0480422759980426
+ELN032036-334,17,1.0,H,10,10: dppdtbpf)PdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,12.5177637936415
+ELN032036-334,17,1.0,H,10,10: dppdtbpf)PdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.97773562930313
+ELN032036-334,17,1.0,A,11,11: QPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0723850875868006
+ELN032036-334,17,1.0,H,11,11: QPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,44.5912581062906
+ELN032036-334,17,1.0,A,12,12: cBridP Pd(allyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.436522392751881
+ELN032036-334,17,1.0,B,12,12: cBridP Pd(allyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.219865497231138
+ELN032036-334,17,1.0,G,12,12: cBridP Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,13.7145662647692
+ELN032036-334,17,1.0,H,12,12: cBridP Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,17.6855893125362
+ELN032036-334,17,1.0,G,11,11: QPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,16.1447084914476
+ELN032036-334,17,1.0,G,11,11: QPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,9.13876888215286
+ELN032036-334,17,1.0,C,12,12: cBridP Pd(allyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0512229466356388
+ELN032036-334,17,1.0,D,12,12: cBridP Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,69.3670141716725
+ELN032036-334,17,1.0,E,12,12: cBridP Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,57.3056623176555
+ELN032036-334,17,1.0,F,12,12: cBridP Pd(allyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.65907730005101
+ELN032036-334,16,2.0,C,1,1: cPhos Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0905079736408261
+ELN032036-334,16,2.0,E,1,1: cPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,46.108837464979
+ELN032036-334,16,2.0,F,1,1: cPhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.31550574899847
+ELN032036-334,16,2.0,H,1,1: cPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,53.9974413605165
+ELN032036-334,16,2.0,D,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.56941643741279
+ELN032036-334,16,2.0,D,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.51576122379684
+ELN032036-334,16,2.0,F,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.208180262191767
+ELN032036-334,16,2.0,G,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.122286757799367
+ELN032036-334,16,2.0,A,3,3: AlPhosPd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",1.53185569372563
+ELN032036-334,16,2.0,E,3,3: AlPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.225278630865623
+ELN032036-334,16,2.0,E,3,3: AlPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.059283851855108
+ELN032036-334,16,2.0,E,3,3: AlPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.474270814840864
+ELN032036-334,16,2.0,E,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,4.46529068064457
+ELN032036-334,16,2.0,E,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,4.21513427567249
+ELN032036-334,16,2.0,G,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.17088611279339
+ELN032036-334,16,2.0,A,1,1: cPhos Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0568117266390482
+ELN032036-334,16,2.0,D,1,1: cPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,34.3854699116258
+ELN032036-334,16,2.0,G,1,1: cPhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,2.44073747208116
+ELN032036-334,16,2.0,A,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.452710151524182
+ELN032036-334,16,2.0,A,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.244708190505833
+ELN032036-334,16,2.0,B,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.399742108876823
+ELN032036-334,16,2.0,B,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.116054164360673
+ELN032036-334,16,2.0,C,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.18674135837282
+ELN032036-334,16,2.0,E,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.383647036845512
+ELN032036-334,16,2.0,E,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.02613602722947
+ELN032036-334,16,2.0,E,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.131878671148764
+ELN032036-334,16,2.0,E,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0239779398028445
+ELN032036-334,16,2.0,H,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.530910791486447
+ELN032036-334,16,2.0,B,3,3: AlPhosPd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",2.0526382047144
+ELN032036-334,16,2.0,A,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0668538576453974
+ELN032036-334,16,2.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.18117385859345
+ELN032036-334,16,2.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.872251477305124
+ELN032036-334,16,2.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.218062869326281
+ELN032036-334,16,2.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.218062869326281
+ELN032036-334,16,2.0,H,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.17393064040382
+ELN032036-334,16,2.0,H,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.23991357839705
+ELN032036-334,16,2.0,H,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,3.71070027978907
+ELN032036-334,16,2.0,G,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.474683571985313
+ELN032036-334,16,2.0,A,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",1.45571176328923
+ELN032036-334,16,2.0,B,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.275482090065737
+ELN032036-334,16,2.0,D,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,18.1721730173092
+ELN032036-334,16,2.0,G,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.24609149099
+ELN032036-334,16,2.0,H,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.459866219069008
+ELN032036-334,16,2.0,B,6,6: XantPhos Pd(allyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.326086938614592
+ELN032036-334,16,2.0,B,6,6: XantPhos Pd(allyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.217391300122544
+ELN032036-334,16,2.0,C,6,6: XantPhos Pd(allyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0680549900807875
+ELN032036-334,16,2.0,E,6,6: XantPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,9.13027356353676
+ELN032036-334,16,2.0,C,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.14487907711449
+ELN032036-334,16,2.0,E,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,17.0659700068723
+ELN032036-334,16,2.0,E,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.397411144830633
+ELN032036-334,16,2.0,F,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.379718565692573
+ELN032036-334,16,2.0,D,6,6: XantPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,12.760215399509
+ELN032036-334,16,2.0,D,6,6: XantPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.963762509070751
+ELN032036-334,16,2.0,G,6,6: XantPhos Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.341157205598832
+ELN032036-334,16,2.0,H,6,6: XantPhos Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.209643607680662
+ELN032036-334,16,2.0,E,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.26659557685931
+ELN032036-334,16,2.0,E,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.26659557685931
+ELN032036-334,16,2.0,F,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,2.16935783146707
+ELN032036-334,16,2.0,C,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.117739407309632
+ELN032036-334,16,2.0,H,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,3.42195654030593
+ELN032036-334,16,2.0,H,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0763261648556641
+ELN032036-334,16,2.0,H,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.127210279498392
+ELN032036-334,16,2.0,A,9,9: Jackie CPhos Pd G4 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.475415981209526
+ELN032036-334,16,2.0,A,9,9: Jackie CPhos Pd G4 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0625547360867711
+ELN032036-334,16,2.0,A,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.142542437858238
+ELN032036-334,16,2.0,B,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.083298622916742
+ELN032036-334,16,2.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.32804235507391
+ELN032036-334,16,2.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,5.32892312796113
+ELN032036-334,16,2.0,G,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.242939561650386
+ELN032036-334,16,2.0,G,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.409960535738725
+ELN032036-334,16,2.0,D,9,9: Jackie CPhos Pd G4 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,59.8982203838912
+ELN032036-334,16,2.0,E,9,9: Jackie CPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,60.0305729773758
+ELN032036-334,16,2.0,E,9,9: Jackie CPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.776105393370302
+ELN032036-334,16,2.0,G,9,9: Jackie CPhos Pd G4 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,8.84282703697868
+ELN032036-334,16,2.0,F,9,9: Jackie CPhos Pd G4 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,3.03682155449226
+ELN032036-334,16,2.0,H,9,9: Jackie CPhos Pd G4 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,8.63066529222301
+ELN032036-334,16,2.0,H,9,9: Jackie CPhos Pd G4 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.31340404210771
+ELN032036-334,16,2.0,A,10,10: dpppPdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0750938660142126
+ELN032036-334,16,2.0,A,10,10: dpppPdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.125156448019462
+ELN032036-334,16,2.0,A,11,11: AdBrettPhosPd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.346682597702139
+ELN032036-334,16,2.0,A,11,11: AdBrettPhosPd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.800956389413875
+ELN032036-334,16,2.0,B,11,11: AdBrettPhosPd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",2.7510651259376
+ELN032036-334,16,2.0,D,11,11: AdBrettPhosPd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0594000579377681
+ELN032036-334,16,2.0,D,11,11: AdBrettPhosPd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0445500434533261
+ELN032036-334,16,2.0,D,11,11: AdBrettPhosPd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.178200173813304
+ELN032036-334,16,2.0,E,12,12: MorDalPhos Pd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.42834210572876
+ELN032036-334,16,3.0,D,1,1: cPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,39.8400178315236
+ELN032036-334,16,3.0,E,1,1: cPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,49.2390101545589
+ELN032036-334,16,3.0,F,1,1: cPhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.63498094814954
+ELN032036-334,16,3.0,G,1,1: cPhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,4.95438595791456
+ELN032036-334,16,3.0,B,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.995278758500777
+ELN032036-334,16,2.0,B,10,10: dpppPdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.039598731835815
+ELN032036-334,16,2.0,D,10,10: dpppPdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.341667965729822
+ELN032036-334,16,2.0,D,10,10: dpppPdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.124242894525204
+ELN032036-334,16,2.0,E,10,10: dpppPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.384476744692343
+ELN032036-334,16,2.0,E,10,10: dpppPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.456566138798056
+ELN032036-334,16,2.0,H,10,10: dpppPdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.110714728210918
+ELN032036-334,16,2.0,C,11,11: AdBrettPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.154983305355627
+ELN032036-334,16,2.0,C,11,11: AdBrettPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.262279448031764
+ELN032036-334,16,2.0,C,11,11: AdBrettPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",1.84787788248008
+ELN032036-334,16,2.0,E,11,11: AdBrettPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.552631561693392
+ELN032036-334,16,2.0,F,11,11: AdBrettPhosPd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.645432868514232
+ELN032036-334,16,2.0,D,12,12: MorDalPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.862354844208368
+ELN032036-334,16,3.0,B,1,1: cPhos Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.233071634628186
+ELN032036-334,16,3.0,C,1,1: cPhos Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.815182758666514
+ELN032036-334,16,3.0,H,1,1: cPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,52.3084075612987
+ELN032036-334,16,3.0,C,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.478762570682651
+ELN032036-334,16,3.0,F,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.14419450913734
+ELN032036-334,16,3.0,H,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.01094571598863
+ELN032036-334,16,3.0,D,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.51601094552868
+ELN032036-334,16,3.0,E,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,5.39323089999549
+ELN032036-334,16,3.0,G,2,2: DPEPhos Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.01275810661591
+ELN032036-334,16,3.0,B,3,3: AlPhosPd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0920568114876617
+ELN032036-334,16,3.0,C,3,3: AlPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.333168815003189
+ELN032036-334,16,3.0,E,3,3: AlPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.39475372834186
+ELN032036-334,16,3.0,F,3,3: AlPhosPd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.711278870486348
+ELN032036-334,16,3.0,H,3,3: AlPhosPd G6 Br (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.51716008344348
+ELN032036-334,16,3.0,C,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.136165578380873
+ELN032036-334,16,3.0,C,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.408496745287746
+ELN032036-334,16,3.0,D,3,3: AlPhosPd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.23020363030181
+ELN032036-334,16,3.0,G,3,3: AlPhosPd G6 Br (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.443369627669107
+ELN032036-334,16,3.0,B,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.119300109940545
+ELN032036-334,16,3.0,B,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.238600219881091
+ELN032036-334,16,3.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.973235998390588
+ELN032036-334,16,3.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.52937083981547
+ELN032036-334,16,3.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.955856800781715
+ELN032036-334,16,3.0,D,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,5.70038220229616
+ELN032036-334,16,3.0,H,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,7.30769206316043
+ELN032036-334,16,3.0,H,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,5.16666693565173
+ELN032036-334,16,3.0,H,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.96153842485868
+ELN032036-334,16,3.0,B,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.148129856781569
+ELN032036-334,16,3.0,C,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.37603410546366
+ELN032036-334,16,3.0,G,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.05345915521579
+ELN032036-334,16,3.0,E,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.68128384088979
+ELN032036-334,16,3.0,E,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.51895388992812
+ELN032036-334,16,3.0,E,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.36045434400357
+ELN032036-334,16,3.0,E,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.00766081007423
+ELN032036-334,16,3.0,F,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.34334252183189
+ELN032036-334,16,3.0,G,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.33928568260808
+ELN032036-334,16,3.0,G,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.892857180870309
+ELN032036-334,16,3.0,G,4,4: triisobutylphosphatrane Pd G6 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.907738119101916
+ELN032036-334,16,3.0,D,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,17.0165184533358
+ELN032036-334,16,3.0,E,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,15.1094629637345
+ELN032036-334,16,3.0,F,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,2.38154921008441
+ELN032036-334,16,3.0,B,6,6: XantPhos Pd(allyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.23322105006585
+ELN032036-334,16,3.0,D,6,6: XantPhos Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,14.8923257738711
+ELN032036-334,16,3.0,G,6,6: XantPhos Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.633116855973598
+ELN032036-334,16,3.0,H,6,6: XantPhos Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.346065123230807
+ELN032036-334,16,3.0,A,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.199063234833144
+ELN032036-334,16,3.0,B,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.210918115364207
+ELN032036-334,16,3.0,D,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.26061937828461
+ELN032036-334,16,3.0,G,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.383494407307243
+ELN032036-334,16,3.0,A,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.127795529060851
+ELN032036-334,16,3.0,A,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.293929717792109
+ELN032036-334,16,3.0,C,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.135635017122746
+ELN032036-334,16,3.0,C,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",1.03575828584815
+ELN032036-334,16,3.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.23569531289733
+ELN032036-334,16,3.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,9.14487781248096
+ELN032036-334,16,3.0,E,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,3.00618935473965
+ELN032036-334,16,3.0,H,5,5: SPhos Pd(tBuInd)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,3.0941239106608
+ELN032036-334,16,3.0,C,6,6: XantPhos Pd(allyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.639578620425302
+ELN032036-334,16,3.0,E,6,6: XantPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0857738019538065
+ELN032036-334,16,3.0,E,6,6: XantPhos Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,16.5665976677481
+ELN032036-334,16,3.0,F,6,6: XantPhos Pd(allyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.885078122558031
+ELN032036-334,16,3.0,C,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.568044476804517
+ELN032036-334,16,3.0,E,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.167288633075797
+ELN032036-334,16,3.0,E,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.115815216364173
+ELN032036-334,16,3.0,E,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.10667870857941
+ELN032036-334,16,3.0,F,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.28768375315134
+ELN032036-334,16,3.0,H,7,7: Me3(OMe)tBuXPhos Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.305537870103948
+ELN032036-334,16,3.0,B,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.556750593183489
+ELN032036-334,16,3.0,H,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.601176767681327
+ELN032036-334,16,3.0,H,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,4.27219225010439
+ELN032036-334,16,3.0,B,9,9: Jackie CPhos Pd G4 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.797771306457502
+ELN032036-334,16,3.0,C,9,9: Jackie CPhos Pd G4 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",2.0523138659258
+ELN032036-334,16,3.0,E,9,9: Jackie CPhos Pd G4 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,62.9894091079087
+ELN032036-334,16,3.0,F,9,9: Jackie CPhos Pd G4 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,6.93125431519046
+ELN032036-334,16,3.0,A,10,10: dpppPdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.511705264897102
+ELN032036-334,16,3.0,C,10,10: dpppPdCl2 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",1.3110250347307
+ELN032036-334,16,3.0,D,10,10: dpppPdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.187316031167612
+ELN032036-334,16,3.0,D,10,10: dpppPdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.62242447622123
+ELN032036-334,16,3.0,G,10,10: dpppPdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.02810143194982
+ELN032036-334,16,3.0,A,11,11: AdBrettPhosPd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.659156290029548
+ELN032036-334,16,3.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.16801434155955
+ELN032036-334,16,3.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.40760707506818
+ELN032036-334,16,3.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,9.14944621108122
+ELN032036-334,16,3.0,D,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.89008679568101
+ELN032036-334,16,3.0,F,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.170985129629839
+ELN032036-334,16,3.0,F,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.43364464492246
+ELN032036-334,16,3.0,G,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.224827364006534
+ELN032036-334,16,3.0,G,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.176650070010139
+ELN032036-334,16,3.0,G,8,8: AmPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.3971414780356
+ELN032036-334,16,3.0,A,9,9: Jackie CPhos Pd G4 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.285680268993824
+ELN032036-334,16,3.0,D,9,9: Jackie CPhos Pd G4 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,57.1340547249102
+ELN032036-334,16,3.0,G,9,9: Jackie CPhos Pd G4 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,10.6461929445953
+ELN032036-334,16,3.0,H,9,9: Jackie CPhos Pd G4 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,5.10241605835471
+ELN032036-334,16,3.0,H,9,9: Jackie CPhos Pd G4 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,3.50791104011887
+ELN032036-334,16,3.0,B,10,10: dpppPdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.560428860589941
+ELN032036-334,16,3.0,E,10,10: dpppPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,3.17745040783537
+ELN032036-334,16,3.0,F,10,10: dpppPdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.38537360607547
+ELN032036-334,16,3.0,H,10,10: dpppPdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0762970487342011
+ELN032036-334,16,3.0,H,10,10: dpppPdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.788402860605799
+ELN032036-334,16,3.0,B,11,11: AdBrettPhosPd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.478821340751097
+ELN032036-334,16,3.0,C,11,11: AdBrettPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0385455471654319
+ELN032036-334,16,3.0,C,11,11: AdBrettPhosPd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.642425800449868
+ELN032036-334,16,3.0,E,11,11: AdBrettPhosPd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.74811289690236
+ELN032036-334,16,3.0,H,11,11: AdBrettPhosPd G6 Br (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.407429599122633
+ELN032036-334,16,3.0,A,12,12: MorDalPhos Pd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",1.52796728025353
+ELN032036-334,16,3.0,B,12,12: MorDalPhos Pd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.421306056348578
+ELN032036-334,16,3.0,C,12,12: MorDalPhos Pd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.503479949240744
+ELN032036-334,16,3.0,E,12,12: MorDalPhos Pd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,3.73563208328512
+ELN032036-334,16,3.0,D,11,11: AdBrettPhosPd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.28642691767184
+ELN032036-334,16,3.0,F,11,11: AdBrettPhosPd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.18036562682074
+ELN032036-334,16,3.0,G,11,11: AdBrettPhosPd G6 Br (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.358756322345236
+ELN032036-334,16,3.0,D,12,12: MorDalPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,3.72783194760624
+ELN032036-334,16,3.0,F,12,12: MorDalPhos Pd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.545007026306053
+ELN032036-334,16,3.0,G,12,12: MorDalPhos Pd G6 Br (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.399692528364187
+ELN032036-334,17,3.0,D,1,1: JackiePhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,8.75292406170049
+ELN032036-334,17,3.0,G,1,1: JackiePhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.93959124225948
+ELN032036-334,16,3.0,H,12,12: MorDalPhos Pd G6 Br (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.331325291795609
+ELN032036-334,17,3.0,E,1,1: JackiePhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,7.21389902688961
+ELN032036-334,17,3.0,F,1,1: JackiePhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.389790015978511
+ELN032036-334,17,3.0,F,2,2: dppfPdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0671501495565888
+ELN032036-334,17,3.0,H,2,2: dppfPdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.180982869789374
+ELN032036-334,17,3.0,C,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.208632149314781
+ELN032036-334,17,3.0,D,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,7.90612904799738
+ELN032036-334,17,3.0,D,2,2: dppfPdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.01744102489341
+ELN032036-334,17,3.0,E,2,2: dppfPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.04600330839786
+ELN032036-334,17,3.0,G,2,2: dppfPdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.975674987356717
+ELN032036-334,17,3.0,B,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.147765051927867
+ELN032036-334,17,3.0,G,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,2.92523143809035
+ELN032036-334,17,3.0,H,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.2591343531984
+ELN032036-334,17,3.0,B,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0911458346268369
+ELN032036-334,17,3.0,B,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.29947917507444
+ELN032036-334,17,3.0,D,5,5: GPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,3.23756125239813
+ELN032036-334,17,3.0,E,5,5: GPhos Pd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,3.14864854554872
+ELN032036-334,17,3.0,D,6,6: rac-BINAP Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0739736144104469
+ELN032036-334,17,3.0,D,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,23.0732801106971
+ELN032036-334,17,3.0,G,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,7.5448567897869
+ELN032036-334,17,3.0,E,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,8.03601557212226
+ELN032036-334,17,3.0,F,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,2.61029424569048
+ELN032036-334,17,3.0,D,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,40.3677760066892
+ELN032036-334,17,3.0,E,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,40.4975799344499
+ELN032036-334,17,3.0,F,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.461863276416168
+ELN032036-334,17,3.0,G,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,4.71941335772001
+ELN032036-334,17,3.0,H,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,50.2953243336421
+ELN032036-334,17,3.0,A,5,5: GPhos Pd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.101591605622827
+ELN032036-334,17,3.0,F,5,5: GPhos Pd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0747384132358091
+ELN032036-334,17,3.0,G,5,5: GPhos Pd G6 Br (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0804721002058982
+ELN032036-334,17,3.0,H,5,5: GPhos Pd G6 Br (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.83106083748981
+ELN032036-334,17,3.0,E,6,6: rac-BINAP Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0734753842407666
+ELN032036-334,17,3.0,H,6,6: rac-BINAP Pd G3 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.242873576284803
+ELN032036-334,17,3.0,C,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.300225160160379
+ELN032036-334,17,3.0,E,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,22.8308900503351
+ELN032036-334,17,3.0,F,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.18716846930142
+ELN032036-334,17,3.0,H,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,3.31670830489553
+ELN032036-334,17,3.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.30035339800768
+ELN032036-334,17,3.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.43133465535181
+ELN032036-334,17,3.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.52159891574054
+ELN032036-334,17,3.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,1.63765311853103
+ELN032036-334,17,3.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.25660866178795
+ELN032036-334,17,3.0,B,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0631632148072732
+ELN032036-334,17,3.0,C,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.104017680887504
+ELN032036-334,17,3.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.262950304242252
+ELN032036-334,17,3.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.354982919543136
+ELN032036-334,17,3.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.14462266439454
+ELN032036-334,17,3.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.236294898592838
+ELN032036-334,17,3.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,4.53686188397121
+ELN032036-334,17,3.0,E,10,10: dppdtbpf)PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,28.3613184135954
+ELN032036-334,17,3.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.24381626444323
+ELN032036-334,17,3.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.28621913567828
+ELN032036-334,17,3.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,3.03886943370791
+ELN032036-334,17,3.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.20348767702411
+ELN032036-334,17,3.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.19120720247446
+ELN032036-334,17,3.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.26489004977236
+ELN032036-334,17,3.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.75082893422802
+ELN032036-334,17,3.0,G,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0767341929563396
+ELN032036-334,17,3.0,G,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0767341929563396
+ELN032036-334,17,3.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.446135680806221
+ELN032036-334,17,3.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.629838587494092
+ELN032036-334,17,3.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.721690079943554
+ELN032036-334,17,3.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.432900432407635
+ELN032036-334,17,3.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.611153531545564
+ELN032036-334,17,3.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.751209532590308
+ELN032036-334,17,3.0,D,10,10: dppdtbpf)PdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,27.4833549226491
+ELN032036-334,17,3.0,D,10,10: dppdtbpf)PdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.55659117405271
+ELN032036-334,17,3.0,E,10,10: dppdtbpf)PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.42092934550584
+ELN032036-334,17,3.0,F,10,10: dppdtbpf)PdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.370701768314314
+ELN032036-334,17,3.0,G,10,10: dppdtbpf)PdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,7.7176861076553
+ELN032036-334,17,3.0,H,10,10: dppdtbpf)PdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,28.6596218934367
+ELN032036-334,17,3.0,H,10,10: dppdtbpf)PdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.57627934000619
+ELN032036-334,17,3.0,B,11,11: QPhos Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.807501952622683
+ELN032036-334,17,3.0,E,11,11: QPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,38.4003802475004
+ELN032036-334,17,3.0,G,11,11: QPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,19.0409457384559
+ELN032036-334,17,3.0,G,11,11: QPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,11.8947529308707
+ELN032036-334,17,3.0,E,12,12: cBridP Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,66.1623633706102
+ELN032036-334,17,3.0,F,12,12: cBridP Pd(allyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.861528838669079
+ELN032036-334,17,3.0,H,12,12: cBridP Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,15.9618524052997
+ELN032036-334,17,3.0,D,11,11: QPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,38.7408917394914
+ELN032036-334,17,3.0,F,11,11: QPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.66325480406117
+ELN032036-334,17,3.0,H,11,11: QPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,51.2203724349985
+ELN032036-334,17,3.0,A,12,12: cBridP Pd(allyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.314318989438729
+ELN032036-334,17,3.0,G,12,12: cBridP Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,26.8216857428014
+ELN032036-334,17,2.0,D,1,1: JackiePhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,5.07152136997952
+ELN032036-334,17,2.0,D,1,1: JackiePhos Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.332321920063987
+ELN032036-334,17,2.0,E,1,1: JackiePhos Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,7.5957083446758
+ELN032036-334,17,2.0,B,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.109475738448557
+ELN032036-334,17,2.0,E,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,4.46153843896629
+ELN032036-334,17,2.0,H,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.753768870560877
+ELN032036-334,17,2.0,C,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.287459570359953
+ELN032036-334,17,2.0,C,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.407234404729146
+ELN032036-334,17,2.0,C,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.227572162099276
+ELN032036-334,17,2.0,E,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,37.3599316520481
+ELN032036-334,17,2.0,E,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.53921932531951
+ELN032036-334,17,2.0,E,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.44070923565416
+ELN032036-334,17,2.0,G,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,3.87247061457194
+ELN032036-334,17,2.0,A,5,5: GPhos Pd G6 Br (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0232395996461166
+ELN032036-334,17,2.0,B,5,5: GPhos Pd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0477554906836517
+ELN032036-334,17,2.0,B,5,5: GPhos Pd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0238777453418259
+ELN032036-334,17,2.0,D,5,5: GPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0818777271931075
+ELN032036-334,17,2.0,D,5,5: GPhos Pd G6 Br (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,3.19323131477845
+ELN032036-334,17,2.0,A,6,6: rac-BINAP Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.16662699337454
+ELN032036-334,17,2.0,G,1,1: JackiePhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,1.8073089776574
+ELN032036-334,17,2.0,E,2,2: dppfPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.800388107632568
+ELN032036-334,17,2.0,E,2,2: dppfPdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.181906388098311
+ELN032036-334,17,2.0,D,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,3.08953345152441
+ELN032036-334,17,2.0,D,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.882723829870637
+ELN032036-334,17,2.0,G,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,4.30374890857833
+ELN032036-334,17,2.0,A,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0669523306651523
+ELN032036-334,17,2.0,A,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0669523306651523
+ELN032036-334,17,2.0,A,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.187466523867092
+ELN032036-334,17,2.0,B,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.217302727485262
+ELN032036-334,17,2.0,B,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.217302727485262
+ELN032036-334,17,2.0,B,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.597582510703417
+ELN032036-334,17,2.0,D,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,26.6899263933682
+ELN032036-334,17,2.0,F,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.98169093728432
+ELN032036-334,17,2.0,H,4,4: P(tBu)3 Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,22.5959693405888
+ELN032036-334,17,2.0,C,5,5: GPhos Pd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0551693707182188
+ELN032036-334,17,2.0,C,5,5: GPhos Pd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0993048697590569
+ELN032036-334,17,2.0,C,5,5: GPhos Pd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0331016211977998
+ELN032036-334,17,2.0,E,5,5: GPhos Pd G6 Br (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,8.47503740943499
+ELN032036-334,17,2.0,F,5,5: GPhos Pd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.100144657495143
+ELN032036-334,17,2.0,F,5,5: GPhos Pd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.200289314990286
+ELN032036-334,17,2.0,F,5,5: GPhos Pd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.111271838897804
+ELN032036-334,17,2.0,F,5,5: GPhos Pd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0667631008515631
+ELN032036-334,17,2.0,B,6,6: rac-BINAP Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.134179068087554
+ELN032036-334,17,2.0,G,6,6: rac-BINAP Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.123057989699701
+ELN032036-334,17,2.0,B,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.092839733249425
+ELN032036-334,17,2.0,B,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0464198666247125
+ELN032036-334,17,2.0,C,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.227143671262908
+ELN032036-334,17,2.0,E,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,16.9686986984826
+ELN032036-334,17,2.0,H,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.00615524865691
+ELN032036-334,17,2.0,B,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0709018724056935
+ELN032036-334,17,2.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.687671936820257
+ELN032036-334,17,2.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.937734438975503
+ELN032036-334,17,2.0,E,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.72543136175297
+ELN032036-334,17,2.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.562192562340209
+ELN032036-334,17,2.0,H,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.337315524838143
+ELN032036-334,17,2.0,D,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,16.4683489060298
+ELN032036-334,17,2.0,F,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.52249141332873
+ELN032036-334,17,2.0,G,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,4.90117530807291
+ELN032036-334,17,2.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.442550417498637
+ELN032036-334,17,2.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.639239443094218
+ELN032036-334,17,2.0,D,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,2.91755444142275
+ELN032036-334,17,2.0,A,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0232315013561583
+ELN032036-334,17,2.0,A,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.267162276413832
+ELN032036-334,17,2.0,B,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0254777064368983
+ELN032036-334,17,2.0,B,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0382165596553474
+ELN032036-334,17,2.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,1.03237920080631
+ELN032036-334,17,2.0,D,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.938526546187552
+ELN032036-334,17,2.0,C,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.10806916766838
+ELN032036-334,17,2.0,C,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.216138335336759
+ELN032036-334,17,2.0,C,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0360230536528543
+ELN032036-334,17,2.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.114314751809437
+ELN032036-334,17,2.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.254032775489778
+ELN032036-334,17,2.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.533468803923542
+ELN032036-334,17,2.0,E,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.863711432879861
+ELN032036-334,17,2.0,F,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0489236778301772
+ELN032036-334,17,2.0,F,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0489236778301772
+ELN032036-334,17,2.0,F,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0366927583726329
+ELN032036-334,17,2.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.200080040523208
+ELN032036-334,17,2.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.33346672095457
+ELN032036-334,17,2.0,G,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.133386690369444
+ELN032036-334,17,2.0,A,10,10: dppdtbpf)PdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0972289712496868
+ELN032036-334,17,2.0,A,10,10: dppdtbpf)PdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0243072428124217
+ELN032036-334,17,2.0,A,10,10: dppdtbpf)PdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0607681092948427
+ELN032036-334,17,2.0,D,10,10: dppdtbpf)PdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0763650229448978
+ELN032036-334,17,2.0,D,10,10: dppdtbpf)PdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,38.449788746938
+ELN032036-334,17,2.0,F,10,10: dppdtbpf)PdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,3.28796669899298
+ELN032036-334,17,2.0,G,10,10: dppdtbpf)PdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,2.87720254918827
+ELN032036-334,17,2.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.273809528776578
+ELN032036-334,17,2.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.44047613370986
+ELN032036-334,17,2.0,H,9,9: BrettPhos Pd(crotyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,2.01190483002436
+ELN032036-334,17,2.0,B,10,10: dppdtbpf)PdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.224600344284112
+ELN032036-334,17,2.0,B,10,10: dppdtbpf)PdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0264235690472296
+ELN032036-334,17,2.0,B,10,10: dppdtbpf)PdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0924824941261903
+ELN032036-334,17,2.0,C,10,10: dppdtbpf)PdCl2 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0222000216662123
+ELN032036-334,17,2.0,E,10,10: dppdtbpf)PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.120729206304751
+ELN032036-334,17,2.0,E,10,10: dppdtbpf)PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,10.2499091862106
+ELN032036-334,17,2.0,E,10,10: dppdtbpf)PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,19.6667885192948
+ELN032036-334,17,2.0,E,10,10: dppdtbpf)PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.50911505632182
+ELN032036-334,17,2.0,E,10,10: dppdtbpf)PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,1.06241699389374
+ELN032036-334,17,2.0,A,11,11: QPhos Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0237699066690726
+ELN032036-334,17,2.0,D,11,11: QPhos Pd(crotyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,23.2794736117365
+ELN032036-334,17,2.0,G,12,12: cBridP Pd(allyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,38.0384836348171
+ELN032036-334,17,2.0,H,12,12: cBridP Pd(allyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,14.6205900773391
+ELN032036-334,17,2.0,H,10,10: dppdtbpf)PdCl2 (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,21.5374498127327
+ELN032036-334,17,2.0,B,11,11: QPhos Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.285324404454588
+ELN032036-334,17,2.0,E,11,11: QPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,33.3411691013736
+ELN032036-334,17,2.0,E,11,11: QPhos Pd(crotyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,2.10365490497486
+ELN032036-334,17,2.0,F,11,11: QPhos Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,1.77375776862839
+ELN032036-334,17,2.0,G,11,11: QPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,22.9421412719605
+ELN032036-334,17,2.0,G,11,11: QPhos Pd(crotyl)Cl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,8.02974896432178
+ELN032036-334,17,2.0,H,11,11: QPhos Pd(crotyl)Cl (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,14.7477039993623
+ELN032036-334,17,2.0,D,12,12: cBridP Pd(allyl)Cl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,67.1732975739778
+ELN032036-334,17,2.0,E,12,12: cBridP Pd(allyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,61.2921850424451
+ELN032036-334,17,2.0,F,12,12: cBridP Pd(allyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.682095005824848
+ELN032036-334,15,,C,7,7: RockPhos Pd G6 Br (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,F,11,11: tBuBrettPhos Pd(allyl)OTf (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,G,9,9:,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,18,,F,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,A,8,8:,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,B,1,1: CyJohnPhos Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,C,3,3: TrixiePhos Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,A,11,11:,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,B,10,10:,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,B,1,1: meCgPPh Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,C,1,1: meCgPPh Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,A,8,8: (DiMeIHept Cl) Pd(cinnamyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,G,1,1: meCgPPh Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,15,,H,12,12: PEPPSI SIPr (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,B,12,12:,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,A,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,F,8,8:,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,D,12,12:,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,A,2,2: dtbpfPdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,F,2,2: Piperidinyl-amino-pincer PdCl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,C,11,11:,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,G,11,11:,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,15,,A,2,2: Piperidinyl-amino-pincer PdCl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,B,6,6: N-XantPhos Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,C,10,10:,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,D,10,10:,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,A,12,12:,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,H,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,G,8,8:,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,15,,C,11,11: tBuBrettPhos Pd(allyl)OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,F,11,11:,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,15,,D,2,2: Piperidinyl-amino-pincer PdCl (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,15,,G,11,11: tBuBrettPhos Pd(allyl)OTf (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,15,,F,10,10: PPh3)2PdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,15,,C,10,10: PPh3)2PdCl2 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,16,,A,6,6: XantPhos Pd(allyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,17,,A,3,3: [Pd(allyl)(Ad-BippyPhos)]OTf (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,E,6,6: bridged tBuPhosphinito PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,17,,C,1,1: JackiePhos Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,17,,F,6,6: rac-BINAP Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,B,8,8:,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,E,12,12:,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,D,6,6: bridged tBuPhosphinito PdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,15,,A,4,4: Pd-PEPPSI-IPent Cl o-picoline (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,C,1,1: CyJohnPhos Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,B,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,B,6,6: bridged tBuPhosphinito PdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,17,,A,7,7: BippyPhos Pd(allyl)OTf (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,F,6,6: N-XantPhos Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,C,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,C,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,E,12,12: PEPPSI SIPr (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,G,12,12:,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,15,,B,2,2: Piperidinyl-amino-pincer PdCl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,A,10,10: PPh3)2PdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,H,8,8:,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,C,9,9:,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,E,1,1: meCgPPh Pd G3 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,H,10,10:,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0
+ELN032036-334,15,,B,12,12: PEPPSI SIPr (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,E,11,11: tBuBrettPhos Pd(allyl)OTf (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,15,,G,2,2: Piperidinyl-amino-pincer PdCl (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,18,,D,9,9:,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,17,,C,2,2: dppfPdCl2 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,G,7,7: RockPhos Pd G6 Br (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,18,,A,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,B,11,11:,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,A,10,10:,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,A,12,12: PEPPSI SIPr (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,B,10,10: PPh3)2PdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,17,,F,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,C,8,8:,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,C,2,2: Piperidinyl-amino-pincer PdCl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,A,6,6: bridged tBuPhosphinito PdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,E,10,10: PPh3)2PdCl2 (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,A,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,A,3,3: TrixiePhos Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,E,8,8: (DiMeIHept Cl) Pd(cinnamyl)Cl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,15,,G,10,10: PPh3)2PdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,17,,C,8,8: CataCXiumA Pd(allyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,C,5,5: XPhos Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,F,9,9:,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,15,,C,12,12: PEPPSI SIPr (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,E,2,2: Piperidinyl-amino-pincer PdCl (8mol%)/,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,17,,B,1,1: JackiePhos Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,B,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,C,6,6: N-XantPhos Pd G3 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,A,1,1: meCgPPh Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,E,8,8:,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,F,6,6: bridged tBuPhosphinito PdCl2 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,15,,G,6,6: N-XantPhos Pd G3 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,15,,D,10,10: PPh3)2PdCl2 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,E,9,9:,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,17,,A,2,2: dppfPdCl2 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,G,6,6: bridged tBuPhosphinito PdCl2 (8mol%)/,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,18,,F,3,3: JosiphosSL-J009-1 Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,17,,C,11,11: QPhos Pd(crotyl)Cl (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,17,,B,2,2: dppfPdCl2 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,E,11,11:,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,A,9,9:,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,18,,C,6,6: bridged tBuPhosphinito PdCl2 (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,C,7,7: tBuXPhos Pd(allyl)OTf (8mol%)/,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,H,11,11:,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,F,10,10:,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,H,9,9:,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,G,10,10:,G: PhMe (10vol)/ TMSOK (3.0 eq)/,0.0
+ELN032036-334,15,,D,1,1: meCgPPh Pd G3 (8mol%)/,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,15,,F,7,7: RockPhos Pd G6 Br (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,H,12,12:,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0
+ELN032036-334,15,,B,3,3: TrixiePhos Pd G3 (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,H,11,11: tBuBrettPhos Pd(allyl)OTf (8mol%)/,H: CPME (10vol)/ KOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,D,8,8:,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,D,11,11:,D: PhMe (10vol)/ NaOtBu (3.0 eq)/,0.0
+ELN032036-334,18,,B,9,9:,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,F,12,12:,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,15,,F,1,1: meCgPPh Pd G3 (8mol%)/,F: tAmOH (10vol)/ Cs2CO3 (3.0 eq)/,0.0
+ELN032036-334,18,,B,4,4: P(Cy)3 Pd(crotyl)Cl (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,C,12,12:,"C: tAmOH (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,15,,B,7,7: RockPhos Pd G6 Br (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,A,1,1: CyJohnPhos Pd G3 (8mol%)/,"A: MeCN (10vol)/ K3PO4 (3.0 eq, 3.25M, aq)/",0.0
+ELN032036-334,15,,B,11,11: tBuBrettPhos Pd(allyl)OTf (8mol%)/,"B: CPME (10vol)/ KOH (3.0 eq, 3M, aq)/",0.0
+ELN032036-334,18,,E,10,10:,E: CPME (10vol)/ NaOtBu (3.0 eq)/,0.0
